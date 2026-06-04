@@ -7,7 +7,7 @@
     "build": "nest build",
     "start": "node dist/src/main.js",
     "start:prod": "node dist/src/main.js",
-    "render:start": "npm run db:deploy && node dist/src/main.js",
+    "render:start": "node dist/src/main.js",
     "railway:start": "npm run db:deploy && node dist/src/main.js",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "test": "jest",
