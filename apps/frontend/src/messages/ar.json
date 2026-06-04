@@ -1,0 +1,1329 @@
+{
+  "home": {
+    "subtitle": "منصة ذكية للإدارة والبحث والأتمتة المدعومة بالذكاء الاصطناعي.",
+    "cta": {
+      "dashboard": "انتقل إلى لوحة التحكم",
+      "login": "تسجيل الدخول"
+    },
+    "features": {
+      "search": {
+        "title": "بحث متقدم",
+        "description": "اعثر على ما تبحث عنه على الفور باستخدام Meilisearch و Algolia."
+      },
+      "ai": {
+        "title": "مساعد الذكاء الاصطناعي",
+        "description": "روبوت دردشة ذكي مدعوم بـ OpenAI و Anthropic Claude لمساعدتك."
+      },
+      "payments": {
+        "title": "مدفوعات آمنة",
+        "description": "إدارة اشتراكاتك ومدفوعاتك بأمان مع Stripe."
+      }
+    },
+    "footer": {
+      "rights": "جميع الحقوق محفوظة."
+    }
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "search": "بحث",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "noResults": "لم يتم العثور على نتائج"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "loginLoading": "جارٍ تسجيل الدخول...",
+    "noAccount": "ليس لديك حساب؟",
+    "alreadyAccount": "لديك حساب بالفعل؟",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirm": "تأكيد",
+    "passwordPlaceholder": "8 أحرف على الأقل",
+    "emailPlaceholder": "بريدك@الإلكتروني.com",
+    "passwordStrength": {
+      "label": "القوة :",
+      "weak": "ضعيفة",
+      "medium": "متوسطة",
+      "good": "جيدة",
+      "strong": "قوية"
+    },
+    "passwordMismatch": "كلمات المرور غير متطابقة",
+    "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل.",
+    "passwordMatch": "كلمات المرور متطابقة ✓",
+    "creating": "جارٍ الإنشاء...",
+    "createAccount": "إنشاء الحساب",
+    "accountCreated": "تم إنشاء الحساب بنجاح!",
+    "emailConfirmationSent": "تم إرسال بريد التأكيد إلى",
+    "clickLinkToActivate": "انقر على الرابط في البريد الإلكتروني لتفعيل حسابك وتسجيل الدخول تلقائياً.",
+    "forgotPasswordTitle": "نسيت كلمة المرور",
+    "forgotPasswordDesc": "أدخل بريدك الإلكتروني لتلقي رابط إعادة التعيين.",
+    "sending": "جارٍ الإرسال...",
+    "sendLink": "إرسال الرابط",
+    "backToLogin": "العودة إلى تسجيل الدخول",
+    "emailSentConfirm": "إذا كان هناك حساب بهذا البريد الإلكتروني، ستتلقى رابط إعادة التعيين.",
+    "newPasswordTitle": "كلمة المرور الجديدة",
+    "newPasswordDesc": "اختر كلمة مرور جديدة.",
+    "resetting": "جارٍ إعادة التعيين...",
+    "resetPassword": "إعادة التعيين",
+    "resetSuccessDesc": "تم إعادة تعيين كلمة المرور بنجاح.",
+    "invalidLink": "رابط غير صالح",
+    "invalidLinkDesc": "رابط إعادة التعيين هذا غير صالح.",
+    "requestNewLink": "طلب رابط جديد",
+    "verifying": "جارٍ التحقق...",
+    "verifyingDesc": "التحقق من عنوان بريدك الإلكتروني.",
+    "emailVerified": "تم التحقق من البريد الإلكتروني!",
+    "redirectingSoon": "سيتم إعادة التوجيه تلقائياً في لحظات...",
+    "accessSite": "الوصول إلى الموقع",
+    "verifyFailed": "فشل التحقق",
+    "invalidVerifyLink": "رابط التحقق غير صالح.",
+    "expiredVerifyLink": "رابط التحقق غير صالح أو منتهي الصلاحية.",
+    "twoFA": {
+      "title": "التحقق بخطوتين",
+      "description": "أدخل الرمز المكون من 6 أرقام من تطبيق المصادقة الخاص بك.",
+      "verifying": "جارٍ التحقق...",
+      "verify": "تحقق",
+      "back": "العودة إلى تسجيل الدخول",
+      "prompt": "أدخل رمز المصادقة الثنائية."
+    },
+    "toasts": {
+      "loginSuccess": "تم تسجيل الدخول بنجاح!",
+      "loginError": "خطأ في تسجيل الدخول",
+      "twoFAInvalid": "رمز التحقق الثنائي غير صالح",
+      "registerError": "خطأ في إنشاء الحساب",
+      "sendLinkSuccess": "تم إرسال البريد الإلكتروني!",
+      "sendLinkError": "خطأ في الإرسال",
+      "resetSuccess": "تم إعادة تعيين كلمة المرور!",
+      "resetError": "رابط غير صالح أو منتهي الصلاحية",
+      "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل.",
+      "passwordMismatch": "كلمات المرور غير متطابقة."
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحبا بك في Althea System"
+  },
+  "chat": {
+    "placeholder": "اكتب رسالتك...",
+    "send": "إرسال",
+    "empty": "اسأل مساعد Althea سؤالاً...",
+    "title": "مساعد Althea",
+    "dialogLabel": "مساعد Althea الذكاء الاصطناعي",
+    "online": "متصل",
+    "openLabel": "فتح المساعد الذكي",
+    "closeLabel": "إغلاق المحادثة",
+    "close": "إغلاق",
+    "clearConversation": "مسح المحادثة",
+    "messagesLabel": "رسائل المحادثة",
+    "typingLabel": "المساعد يكتب",
+    "typingSr": "المساعد يكتب…",
+    "welcomeTitle": "كيف يمكنني مساعدتك؟",
+    "welcomeSubtitle": "اطرح سؤالاً أو اختر من الأسفل",
+    "messagePlaceholder": "رسالتك…",
+    "speakToAdvisor": "التحدث مع مستشار بشري",
+    "suggestion1": "ما المنتجات التي تقدمونها؟",
+    "suggestion2": "كيف يمكنني تتبع طلبي؟",
+    "suggestion3": "ما هي مدد التسليم؟",
+    "suggestion4": "كيف يمكنني التواصل معكم؟",
+    "escalation": {
+      "title": "التحدث مع مستشار",
+      "namePlaceholder": "اسمك",
+      "emailPlaceholder": "بريدك الإلكتروني",
+      "messagePlaceholder": "حدد طلبك (اختياري)",
+      "sending": "جارٍ الإرسال…",
+      "submit": "إرسال",
+      "cancel": "إلغاء",
+      "sentTitle": "تم إرسال الرسالة ✓",
+      "sentMessage": "سيتواصل معك فريقنا خلال 24-48 ساعة.",
+      "backToChat": "العودة إلى المحادثة"
+    }
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "products": "الكتالوج",
+    "contact": "اتصل بنا",
+    "myAccount": "حسابي",
+    "backoffice": "الإدارة",
+    "login": "تسجيل الدخول",
+    "register": "التسجيل",
+    "logout": "تسجيل الخروج",
+    "searchAriaLabel": "بحث المنتجات",
+    "searchLabel": "ابحث عن منتج",
+    "searchPlaceholder": "ابحث عن منتج...",
+    "searchSubmit": "تنفيذ البحث",
+    "seeAllResultsFor": "عرض كل النتائج لـ \u00ab {query} \u00bb",
+    "cartAria": "سلة التسوق",
+    "cartAriaWithCount": "سلة التسوق، {count} عنصر",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "mobileMenu": "القائمة المحمولة",
+    "suggestionsAriaLabel": "اقتراحات البحث",
+    "productSingular": "منتج",
+    "productPlural": "منتجات",
+    "catalogLabel": "الكتالوج",
+    "viewAll": "عرض الكل",
+    "quickAccess": "وصول سريع",
+    "categories": "الفئات",
+    "categoriesLoading": "جارٍ تحميل الفئات…",
+    "allProducts": "جميع المنتجات",
+    "filterNew": "الجديد",
+    "filterAvailable": "متوفر",
+    "filterSale": "عروض",
+    "filterFeatured": "مميز"
+  },
+  "homePage": {
+    "hero": {
+      "title": "معدات طبية متطورة لعيادتك",
+      "subtitle": "التشخيص والأدوات الجراحية والأثاث والمواد الاستهلاكية - مجموعة احترافية يتم توصيلها إليك.",
+      "cta": "عرض الكتالوج",
+      "discover": "اكتشف"
+    },
+    "carouselAria": "العروض والأخبار",
+    "carouselTabsAria": "شرائح العرض",
+    "tagline": {
+      "title": "Althea System — شريكك في المعدات الطبية",
+      "description": "مورد المعدات الطبية المتطورة للعيادات الطبية منذ عام 2024. نختار أفضل العلامات التجارية لنقدم لك الجودة والموثوقية والخدمة الاستثنائية.",
+      "products": "المنتجات المرجعية",
+      "categories": "الفئات",
+      "shipping": "شحن مجاني",
+      "support": "دعم سريع الاستجابة"
+    },
+    "categoriesTitle": "فئاتنا",
+    "viewAllCategories": "عرض جميع الفئات ->",
+    "productsCount": "منتجات",
+    "featuredTitle": "أفضل المنتجات في الوقت الحالي",
+    "outOfStock": "نفذ من المخزون",
+    "limitedStock": "مخزون محدود",
+    "addToCart": "أضف إلى السلة",
+    "inStock": "متوفر",
+    "unavailable": "غير متوفر",
+    "viewFullCatalog": "عرض الكتالوج الكامل",
+    "learnMore": "اعرف أكثر",
+    "reassurance": {
+      "fastDelivery": {
+        "title": "توصيل سريع",
+        "description": "مجاني ابتداء من 100 يورو بدون ضريبة. الشحن خلال 24 إلى 48 ساعة."
+      },
+      "certifiedQuality": {
+        "title": "جودة معتمدة",
+        "description": "معدات مطابقة لمعايير CE والاعتماد الطبي."
+      },
+      "responsiveSupport": {
+        "title": "دعم سريع الاستجابة",
+        "description": "فريقنا يرد خلال 48 ساعة عبر البريد الإلكتروني أو الهاتف."
+      },
+      "securePayment": {
+        "title": "دفع آمن",
+        "description": "المعاملات مؤمنة بواسطة Stripe. بطاقة، تحويل بنكي، خصم مباشر."
+      }
+    }
+  },
+  "productsPage": {
+    "title": "الكتالوج",
+    "results": "نتائج",
+    "found": "تم العثور على",
+    "filters": "التصفية",
+    "sort": {
+      "default": "الترتيب الافتراضي",
+      "priceAsc": "السعر: من الأقل إلى الأعلى",
+      "priceDesc": "السعر: من الأعلى إلى الأقل",
+      "newest": "الأحدث أولاً",
+      "availability": "التوفر"
+    },
+    "search": "بحث...",
+    "searchLabel": "بحث",
+    "category": "الفئة",
+    "allCategories": "جميع الفئات",
+    "price": "السعر",
+    "priceExclTax": "قبل الضريبة",
+    "min": "الحد الأدنى",
+    "max": "الحد الأقصى",
+    "inStockOnly": "المتوفر فقط",
+    "inStock": "متوفر",
+    "reset": "إعادة تعيين الفلاتر",
+    "noResults": "لم يتم العثور على منتجات",
+    "noResultsDesc": "حاول تعديل الفلاتر أو البحث",
+    "clearAllFilters": "مسح جميع الفلاتر",
+    "viewDetails": "عرض التفاصيل",
+    "featured": "مميز",
+    "page": "صفحة",
+    "of": "من",
+    "sortBy": "ترتيب حسب",
+    "openFilters": "فتح الفلاتر",
+    "closeFilters": "إغلاق الفلاتر",
+    "filtersAria": "فلاتر المنتجات",
+    "priceMin": "الحد الأدنى للسعر",
+    "priceMax": "الحد الأقصى للسعر",
+    "loading": "جارٍ تحميل المنتجات...",
+    "addToCartAria": "إضافة {name} إلى السلة",
+    "paginationAria": "ترقيم صفحات المنتجات",
+    "gridView": "عرض شبكي",
+    "listView": "عرض قائمة",
+    "filterFeatured": "مميز",
+    "filterOnSale": "في التخفيضات",
+    "filterNewest": "الأحدث أولاً",
+    "specs": "المواصفات",
+    "addToCartShort": "+ سلة",
+    "outOfStock": "نفد من المخزون"
+  },
+  "productDetailPage": {
+    "breadcrumb": {
+      "home": "الرئيسية",
+      "products": "المنتجات"
+    },
+    "imageAlt": "{name} - عرض {index}",
+    "carousel": {
+      "prevImage": "الصورة السابقة",
+      "nextImage": "الصورة التالية"
+    },
+    "priceExclTax": "قبل الضريبة",
+    "description": "الوصف",
+    "technicalSpecs": "المواصفات التقنية",
+    "addToCart": "أضف إلى السلة",
+    "buyNow": "اشتر الآن",
+    "similarProducts": "منتجات مشابهة",
+    "addedToCart": "تمت إضافة {name} إلى السلة!",
+    "stock": {
+      "inStock": "متوفر",
+      "outOfStock": "نفد من المخزون",
+      "shortOutOfStock": "نفد",
+      "limited": "مخزون محدود ({count} متبقي)"
+    }
+  },
+  "contactPage": {
+    "title": "اتصل بنا",
+    "subtitle": "هل لديك سؤال؟ بحاجة إلى مساعدة؟ فريقنا هنا من أجلك.",
+    "subtitleShort": "سؤال أو اقتراح؟ لا تتردد في الكتابة إلينا.",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "send": "إرسال",
+    "sendMessage": "إرسال الرسالة",
+    "sending": "جاري الإرسال...",
+    "success": "تم إرسال الرسالة بنجاح!",
+    "successTitle": "تم إرسال الرسالة!",
+    "successMessage": "سنرد عليك في أقرب وقت ممكن.",
+    "sendAnother": "إرسال رسالة أخرى",
+    "error": "خطأ في الإرسال",
+    "badge": "اتصل بنا",
+    "availability": "متاح من الاثنين إلى الجمعة، 9 صباحاً – 6 مساءً.",
+    "responseTimeLabel": "وقت الرد",
+    "responseTimeValue": "عادةً خلال 24 ساعة عمل",
+    "info": {
+      "title": "معلومات الاتصال",
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني"
+    }
+  },
+  "dashboardPage": {
+    "welcome": "مرحباً",
+    "adminDashboard": "لوحة تحكم المدير",
+    "userDashboard": "مساحتك الشخصية",
+    "kpi": {
+      "revenueToday": "الإيرادات اليوم",
+      "week": "الأسبوع",
+      "month": "الشهر",
+      "orders": "الطلبات",
+      "today": "اليوم",
+      "pending": "قيد الانتظار",
+      "stockAlerts": "تنبيهات المخزون",
+      "onXActiveProducts": "من أصل {count} منتج نشط",
+      "unreadMessages": "الرسائل غير المقروءة",
+      "registeredUsers": "{count} مستخدم مسجل"
+    },
+    "salesByCategory": {
+      "title": "المبيعات حسب الفئة",
+      "noSales": "لا توجد مبيعات لهذه الفترة.",
+      "last7days": "آخر 7 أيام",
+      "last14days": "آخر 14 يومًا",
+      "last5weeks": "آخر 5 أسابيع",
+      "lastMonth": "الشهر الماضي",
+      "last3months": "آخر 3 أشهر",
+      "total": "المجموع",
+      "histogramSubtitle": "مخطط متعدد الطبقات — إجمالي المبيعات حسب الفئة"
+    },
+    "stockAlertsWidget": {
+      "title": "تنبيهات المخزون",
+      "viewAll": "عرض الكل",
+      "outOfStock": "نفذ من المخزون",
+      "remaining": "متبقي",
+      "noAlerts": "لا توجد تنبيهات مخزون."
+    },
+    "quickActions": {
+      "addProduct": "إضافة منتج",
+      "newMedicalEquipment": "معدات طبية جديدة",
+      "newOrder": "طلب جديد",
+      "createOrderManually": "إنشاء طلب يدوياً",
+      "manageOrders": "إدارة الطلبات",
+      "pendingOrders": "{count} قيد الانتظار",
+      "messages": "الرسائل",
+      "unread": "{count} غير مقروءة",
+      "users": "المستخدمون",
+      "registered": "{count} مسجل",
+      "browseCatalog": "تصفح الكتالوج",
+      "cuttingEdgeMedical": "معدات طبية متطورة",
+      "myOrders": "طلباتي",
+      "trackOrders": "تتبع طلباتك",
+      "settings": "الإعدادات",
+      "editProfile": "تعديل ملفك الشخصي"
+    },
+    "recentOrdersTable": {
+      "title": "الطلبات الأخيرة",
+      "viewAll": "عرض الكل",
+      "orderNumber": "رقم الطلب",
+      "customer": "العميل",
+      "status": "الحالة",
+      "items": "العناصر",
+      "totalIncTax": "الإجمالي شامل الضريبة",
+      "guest": "ضيف",
+      "noOrders": "لا توجد طلبات حتى الآن."
+    },
+    "topProducts": {
+      "title": "أفضل المنتجات (30 يوم)",
+      "sold": "مباع",
+      "revenue": "الإيرادات",
+      "noSales": "لا توجد مبيعات لهذه الفترة."
+    },
+    "myOrdersWidget": {
+      "title": "طلباتي الأخيرة",
+      "noOrders": "لا توجد طلبات حتى الآن.",
+      "browseCatalog": "تصفح الكتالوج"
+    },
+    "orderStatus": {
+      "PENDING": "قيد الانتظار",
+      "CONFIRMED": "مؤكد",
+      "PROCESSING": "قيد المعالجة",
+      "SHIPPED": "تم الشحن",
+      "DELIVERED": "تم التسليم",
+      "CANCELED": "ملغى",
+      "REFUNDED": "مسترد"
+    }
+  },
+  "dashboardLayout": {
+    "title": "لوحة التحكم",
+    "sidebarAria": "قائمة لوحة التحكم",
+    "navigationAria": "تنقل لوحة التحكم",
+    "openMenu": "فتح القائمة",
+    "administration": "الإدارة",
+    "logout": "تسجيل الخروج",
+    "links": {
+      "dashboard": "لوحة التحكم",
+      "orders": "طلباتي",
+      "search": "بحث",
+      "aiAssistant": "المساعد الذكي",
+      "addresses": "دفتر العناوين",
+      "payment": "الدفع",
+      "settings": "الإعدادات"
+    },
+    "adminLinks": {
+      "products": "المنتجات",
+      "categories": "الفئات",
+      "orders": "الطلبات",
+      "users": "المستخدمون",
+      "messages": "الرسائل",
+      "conversations": "محادثات الذكاء الاصطناعي",
+      "carousel": "السلايدر",
+      "siteContent": "محتوى الموقع",
+      "shipping": "الشحن"
+    },
+    "roles": {
+      "ADMIN": "مدير النظام",
+      "MANAGER_PRODUCTS": "مدير المنتجات",
+      "MANAGER_ORDERS": "مدير الطلبات",
+      "ACCOUNTANT": "محاسب",
+      "MODERATOR": "مشرف"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "مزودك للمعدات الطبية المتطورة للعيادات الطبية. التشخيص والأدوات الجراحية والأثاث والمواد الاستهلاكية."
+    },
+    "catalog": {
+      "title": "الكتالوج",
+      "allProducts": "جميع المنتجات",
+      "diagnostic": "التشخيص",
+      "furniture": "الأثاث الطبي",
+      "surgical": "الأدوات الجراحية"
+    },
+    "account": {
+      "title": "حسابي",
+      "login": "تسجيل الدخول",
+      "register": "التسجيل",
+      "mySpace": "مساحتي",
+      "orders": "طلباتي"
+    },
+    "info": {
+      "title": "معلومات",
+      "contact": "اتصل بنا",
+      "legal": "إشعار قانوني",
+      "terms": "الشروط والأحكام",
+      "privacy": "الخصوصية"
+    },
+    "copyright": "Althea System — معدات طبية للعيادات. جميع الحقوق محفوظة.",
+    "tagline": "أجهزة طبية احترافية · التوصيل في فرنسا"
+  },
+  "admin": {
+    "products": {
+      "title": "إدارة المنتجات",
+      "addProduct": "إضافة منتج",
+      "editProduct": "تعديل المنتج",
+      "deleteProduct": "حذف المنتج",
+      "productName": "اسم المنتج",
+      "description": "الوصف",
+      "price": "السعر (سنت)",
+      "comparePrice": "سعر المقارنة (اختياري)",
+      "sku": "SKU",
+      "stock": "المخزون",
+      "lowStockThreshold": "تنبيه المخزون المنخفض",
+      "category": "الفئة",
+      "selectCategory": "اختر فئة",
+      "images": "الصور (URLs، مفصولة بفواصل)",
+      "documents": "المستندات (URLs)",
+      "featured": "مميز",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "tvaRate": "معدل ضريبة القيمة المضافة",
+      "actions": "الإجراءات",
+      "bulkActions": "إجراءات جماعية",
+      "deleteSelected": "حذف المحدد",
+      "search": "البحث عن منتجات...",
+      "filterByCategory": "تصفية حسب الفئة",
+      "filterByStatus": "تصفية حسب الحالة",
+      "allCategories": "جميع الفئات",
+      "allStatuses": "الكل",
+      "activeOnly": "نشط",
+      "inactiveOnly": "غير نشط",
+      "totalProducts": "{count} منتجات",
+      "loadingError": "خطأ في التحميل",
+      "deleteError": "خطأ في الحذف",
+      "createSuccess": "تم إنشاء المنتج بنجاح",
+      "updateSuccess": "تم تحديث المنتج بنجاح",
+      "deleteSuccess": "تم حذف المنتج بنجاح",
+      "confirmDelete": "حذف هذا المنتج؟",
+      "confirmBulkDelete": "حذف {count} منتجات محددة؟",
+      "page": "صفحة",
+      "previous": "السابق",
+      "next": "التالي",
+      "priceExclTax": "السعر قبل الضريبة",
+      "priceInclTax": "السعر شامل الضريبة",
+      "translations": "الترجمات",
+      "translationName": "الاسم المترجم",
+      "translationDescription": "الوصف المترجم",
+      "translationsLoadError": "تعذّر تحميل ترجمات المنتج",
+      "requiredError": "الاسم والسعر مطلوبان",
+      "exportError": "خطأ في التصدير",
+      "importBtn": "استيراد",
+      "slugField": "Slug SEO",
+      "slugPlaceholderHint": "(تلقائي إذا كان فارغاً)",
+      "comparePricePlaceholder": "اختياري",
+      "tableColImage": "صورة",
+      "tableColProduct": "المنتج",
+      "tableColVat": "TVA",
+      "tableColStatus": "الحالة",
+      "featuredBadge": "★ مميز",
+      "statusPublished": "منشور",
+      "statusDraft": "مسودة",
+      "editBtn": "تعديل",
+      "rowsPerPage": "صفوف لكل صفحة:"
+    },
+    "orders": {
+      "title": "إدارة الطلبات",
+      "orderNumber": "رقم الطلب",
+      "customer": "العميل",
+      "status": "الحالة",
+      "items": "العناصر",
+      "totalIncTax": "الإجمالي شامل الضريبة",
+      "createdAt": "التاريخ",
+      "actions": "الإجراءات",
+      "viewDetails": "عرض التفاصيل",
+      "updateStatus": "تحديث الحالة",
+      "search": "البحث عن طلبات...",
+      "filterByStatus": "تصفية حسب الحالة",
+      "allStatuses": "جميع الحالات",
+      "totalOrders": "{count} طلبات",
+      "loadingError": "خطأ في التحميل",
+      "updateSuccess": "تم تحديث الطلب بنجاح",
+      "guest": "ضيف",
+      "noInvoice": "لا توجد فاتورة مرتبطة بهذا الطلب",
+      "invoiceDownloadError": "تعذّر تنزيل الفاتورة",
+      "articleSingular": "عنصر",
+      "articlePlural": "عناصر",
+      "ttc": "شامل الضريبة",
+      "detail": {
+        "orderedItems": "العناصر المطلوبة",
+        "productFallback": "منتج",
+        "subtotalExclTax": "المجموع الجزئي بدون ضريبة",
+        "tax": "ضريبة القيمة المضافة (20%)",
+        "shipping": "الشحن",
+        "shippingFree": "مجاني",
+        "totalInclTax": "الإجمالي شامل الضريبة",
+        "clientSection": "العميل",
+        "shippingAddress": "عنوان الشحن",
+        "phone": "هاتف",
+        "paymentSection": "الدفع",
+        "paidViaStripe": "✓ تم الدفع عبر Stripe",
+        "awaitingPayment": "⏳ في انتظار الدفع",
+        "changeStatus": "تغيير الحالة",
+        "downloadInvoice": "تنزيل الفاتورة",
+        "refundBtn": "إنشاء مذكرة ائتمان / استرداد",
+        "statusHistory": "سجل الحالات"
+      }
+    },
+    "users": {
+      "title": "إدارة المستخدمين",
+      "addUser": "إضافة مستخدم",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "createdAt": "تاريخ التسجيل",
+      "actions": "الإجراءات",
+      "updateRole": "تحديث الدور",
+      "deleteUser": "حذف المستخدم",
+      "search": "البحث عن مستخدمين...",
+      "filterByRole": "تصفية حسب الدور",
+      "allRoles": "جميع الأدوار",
+      "totalUsers": "{count} مستخدمين",
+      "loadingError": "خطأ في التحميل",
+      "updateSuccess": "تم تحديث المستخدم بنجاح",
+      "deleteSuccess": "تم حذف المستخدم بنجاح",
+      "confirmDelete": "حذف هذا المستخدم؟",
+      "updateError": "تعذر تغيير دور هذا المستخدم",
+      "noName": "بدون اسم",
+      "youSuffix": "(أنت)",
+      "exportSuccess": "تم تنزيل ملف CSV",
+      "confirmDeleteDesc": "أنت على وشك حذف حساب",
+      "rgpdTitle": "الامتثال للائحة GDPR:",
+      "rgpdDesc": "سيؤدي هذا الإجراء إلى حذف جميع البيانات الشخصية للمستخدم نهائيًا (الاسم، البريد الإلكتروني، العناوين، سجل الطلبات المجهول). هذا الإجراء لا رجعة فيه.",
+      "rgpdCheckbox": "أؤكد الحذف ومسح البيانات وفقًا للائحة GDPR",
+      "roles": {
+        "USER": "مستخدم",
+        "ADMIN": "مدير",
+        "MODERATOR": "مشرف",
+        "MANAGER_PRODUCTS": "مدير المنتجات",
+        "MANAGER_ORDERS": "مدير الطلبات",
+        "ACCOUNTANT": "محاسب"
+      }
+    },
+    "contacts": {
+      "title": "رسائل الاتصال",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "status": "الحالة",
+      "createdAt": "التاريخ",
+      "actions": "الإجراءات",
+      "markAsRead": "وضع علامة كمقروءة",
+      "markAsUnread": "وضع علامة كغير مقروءة",
+      "delete": "حذف",
+      "viewMessage": "عرض الرسالة",
+      "search": "البحث عن رسائل...",
+      "filterByStatus": "تصفية حسب الحالة",
+      "allStatuses": "جميع الحالات",
+      "unreadOnly": "غير مقروءة",
+      "readOnly": "مقروءة",
+      "totalMessages": "{count} رسائل",
+      "loadingError": "خطأ في التحميل",
+      "updateSuccess": "تم تحديث الرسالة بنجاح",
+      "deleteSuccess": "تم حذف الرسالة بنجاح",
+      "confirmDelete": "حذف هذه الرسالة؟"
+    },
+    "carousel": {
+      "title": "شريط التمرير للصفحة الرئيسية",
+      "addSlide": "إضافة شريحة",
+      "editSlide": "تعديل الشريحة",
+      "title_field": "العنوان",
+      "subtitle": "العنوان الفرعي",
+      "ctaText": "نص الزر",
+      "ctaLink": "رابط الزر",
+      "image": "رابط الصورة",
+      "position": "الموضع",
+      "active": "نشط",
+      "actions": "الإجراءات",
+      "totalSlides": "{count} شرائح",
+      "loadingError": "خطأ في التحميل",
+      "createSuccess": "تم إنشاء الشريحة بنجاح",
+      "updateSuccess": "تم تحديث الشريحة بنجاح",
+      "deleteSuccess": "تم حذف الشريحة بنجاح",
+      "confirmDelete": "حذف هذه الشريحة؟",
+      "move": "نقل",
+      "inactive": "غير نشط",
+      "fieldsRequired": "العنوان والصورة مطلوبان",
+      "maxSlidesError": "الحد الأقصى {count} شرائح",
+      "reorderSuccess": "تم تحديث الترتيب",
+      "titlePlaceholder": "مثال: المعدات الطبية",
+      "subtitlePlaceholder": "مثال: اكتشف منتجاتنا الجديدة",
+      "link": "رابط (URL)"
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "profile": "الملف الشخصي",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "changePassword": "تغيير كلمة المرور",
+      "currentPassword": "كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "updateProfile": "تحديث الملف الشخصي",
+      "updateSuccess": "تم تحديث الإعدادات بنجاح",
+      "updateError": "خطأ في التحديث"
+    },
+    "search": {
+      "title": "بحث",
+      "placeholder": "بحث...",
+      "search": "بحث",
+      "searching": "جاري البحث...",
+      "noResults": "لم يتم العثور على نتائج",
+      "askAssistant": "اسأل مساعد Althea سؤالاً..."
+    },
+    "chat": {
+      "title": "مساعد الذكاء الاصطناعي",
+      "placeholder": "اكتب رسالتك...",
+      "send": "إرسال",
+      "empty": "اسأل مساعد Althea سؤالاً...",
+      "error": "خطأ في إرسال الرسالة",
+      "onlineStatus": "متصل · مدعوم بالذكاء الاصطناعي",
+      "clearBtn": "مسح",
+      "emptyHeading": "كيف يمكنني مساعدتك؟",
+      "suggestion1": "ما هي المنتجات التي تقدمونها؟",
+      "suggestion2": "كيف أتتبع طلبي؟",
+      "suggestion3": "ما هي تكاليف الشحن؟",
+      "suggestion4": "كيف أرجع منتجاً؟",
+      "suggestion5": "ما وسائل الدفع المقبولة؟"
+    },
+    "myOrders": {
+      "title": "طلباتي",
+      "orderNumber": "رقم الطلب",
+      "items": "العناصر",
+      "totalIncTax": "الإجمالي شامل الضريبة",
+      "createdAt": "التاريخ",
+      "viewDetails": "عرض التفاصيل",
+      "noOrders": "لا توجد طلبات حتى الآن.",
+      "browseCatalog": "تصفح الكتالوج",
+      "loadingError": "خطأ في التحميل",
+      "addedToCart": "تمت إضافة المنتجات إلى السلة",
+      "searchPlaceholder": "البحث بالمنتج أو رقم الطلب أو التاريخ...",
+      "allYears": "جميع السنوات",
+      "allStatuses": "جميع الحالات",
+      "orderCountSingular": "طلب",
+      "orderCountPlural": "طلبات",
+      "orderPrefix": "طلب #",
+      "cardPrefix": "بطاقة ••••",
+      "invoicePdf": "فاتورة PDF",
+      "renewTitle": "إضافة جميع المنتجات إلى السلة",
+      "renewBtn": "إعادة الطلب",
+      "status": {
+        "PENDING": "قيد الانتظار",
+        "CONFIRMED": "مؤكد",
+        "PROCESSING": "قيد المعالجة",
+        "SHIPPED": "تم الشحن",
+        "DELIVERED": "تم التسليم",
+        "CANCELED": "ملغى",
+        "REFUNDED": "مسترد"
+      }
+    }
+  },
+  "cart": {
+    "titlePrefix": "عربة",
+    "titleHighlight": "التسوق",
+    "itemSingular": "منتج محدد",
+    "itemPlural": "منتجات محددة",
+    "loginBanner": {
+      "title": "سجّل دخولك لحفظ سلة التسوق والوصول إلى طلباتك",
+      "desc": "ستُحفظ سلة التسوق بعد تسجيل الدخول",
+      "login": "تسجيل الدخول",
+      "register": "إنشاء حساب"
+    },
+    "empty": {
+      "title": "سلة التسوق فارغة",
+      "desc": "اكتشف كتالوجنا وأضف منتجات.",
+      "cta": "عرض المنتجات"
+    },
+    "item": {
+      "ht": "بدون ضريبة",
+      "decreaseQty": "تقليل كمية",
+      "currentQty": "الكمية:",
+      "increaseQty": "زيادة كمية",
+      "lowStockPrefix": "فقط",
+      "lowStockSuffix": "متبقٍّ في المخزون",
+      "remove": "إزالة",
+      "removeSuffix": "من السلة"
+    },
+    "summary": {
+      "title": "ملخص الطلب",
+      "subtotal": "المجموع بدون ضريبة",
+      "savings": "التوفيرات",
+      "tax": "ضريبة القيمة المضافة (20%)",
+      "shipping": "الشحن",
+      "quote": "على عرض سعر",
+      "free": "مجاني",
+      "freeShippingFrom": "شحن مجاني من",
+      "ht": "بدون ضريبة",
+      "total": "المجموع مع الضريبة",
+      "unavailableWarning": "بعض المنتجات غير متوفرة",
+      "unavailableHint": "قم بإزالة أو تعديل المنتجات غير المتوفرة.",
+      "checking": "جارٍ التحقق...",
+      "unavailableBtn": "منتجات غير متوفرة",
+      "checkout": "إتمام الطلب",
+      "continue": "مواصلة التسوق"
+    },
+    "shippingStandard": "الشحن القياسي"
+  },
+  "checkout": {
+    "steps": {
+      "login": "تسجيل الدخول",
+      "address": "العنوان",
+      "recap": "الملخص",
+      "payment": "الدفع"
+    },
+    "emptyCart": {
+      "title": "سلة التسوق فارغة",
+      "desc": "أضف منتجات قبل إتمام الطلب.",
+      "cta": "عرض الكتالوج"
+    },
+    "pageTitle": "إتمام الطلب",
+    "step1": {
+      "title": "سجّل دخولك للمتابعة",
+      "desc": "يجب تسجيل الدخول لإتمام الطلب ومتابعة مشترياتك.",
+      "login": "تسجيل الدخول",
+      "register": "إنشاء حساب"
+    },
+    "step2": {
+      "title": "عنوان التوصيل",
+      "addNew": "+ إضافة عنوان جديد",
+      "useExisting": "← استخدام عنوان موجود",
+      "phone": "هاتف:",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "street": "العنوان",
+      "postalCode": "الرمز البريدي",
+      "city": "المدينة",
+      "phone2": "الهاتف",
+      "label": "التسمية",
+      "labelPlaceholder": "التسمية (مثال: مكتب، منزل)",
+      "back": "العودة إلى السلة",
+      "continue": "متابعة"
+    },
+    "step3": {
+      "products": "المنتجات",
+      "ht": "بدون ضريبة",
+      "deliveryAddress": "عنوان التوصيل",
+      "edit": "تعديل",
+      "phone": "هاتف:",
+      "billingAddress": "عنوان الفاتورة",
+      "billingSame": "مطابق لعنوان التوصيل",
+      "addBilling": "+ عنوان فاتورة جديد",
+      "useExisting": "← استخدام عنوان موجود",
+      "firstNamePlaceholder": "الاسم الأول *",
+      "lastNamePlaceholder": "اسم العائلة *",
+      "streetPlaceholder": "العنوان *",
+      "postalCodePlaceholder": "الرمز البريدي *",
+      "cityPlaceholder": "المدينة *",
+      "paymentSection": "الدفع",
+      "paymentDesc": "ستُحوَّل إلى نموذج دفع Stripe آمن في الخطوة التالية.",
+      "subtotal": "المجموع بدون ضريبة",
+      "tax": "ضريبة القيمة المضافة (20%)",
+      "shipping": "الشحن",
+      "quote": "على عرض سعر",
+      "free": "مجاني",
+      "total": "المجموع مع الضريبة",
+      "customShippingMsg": "شحن خاص مطلوب. يرجى التواصل معنا للحصول على عرض سعر.",
+      "back": "رجوع",
+      "loading": "جارٍ التحميل...",
+      "confirmAndPay": "تأكيد والدفع"
+    },
+    "step4": {
+      "title": "دفع آمن"
+    },
+    "sidebar": {
+      "title": "ملخص الطلب",
+      "qty": "الكمية:",
+      "subtotal": "المجموع بدون ضريبة",
+      "tax": "ضريبة القيمة المضافة (20%)",
+      "shipping": "الشحن",
+      "quote": "على عرض سعر",
+      "free": "مجاني",
+      "total": "المجموع مع الضريبة"
+    },
+    "payment": {
+      "secureInfo": "دفع آمن عبر Stripe. معلوماتك المصرفية محمية.",
+      "contactForQuote": "يرجى التواصل معنا للحصول على عرض شحن.",
+      "back": "رجوع",
+      "processing": "جارٍ المعالجة...",
+      "pay": "دفع",
+      "error": "حدث خطأ أثناء الدفع."
+    },
+    "toasts": {
+      "addressError": "خطأ في إضافة العنوان",
+      "billingRequired": "يرجى تعبئة عنوان الفاتورة",
+      "stockUnavailable": "بعض المنتجات لم تعد متوفرة:",
+      "stockInsufficient": "مخزون غير كافٍ",
+      "orderError": "خطأ في إنشاء الطلب"
+    },
+    "shippingStandard": "الشحن القياسي"
+  },
+  "settings": {
+    "pageTitle": "إعدادات الحساب",
+    "pageSubtitle": "إدارة معلوماتك الشخصية وأمان حسابك.",
+    "loading": "جار تحميل الملف الشخصي...",
+    "cancelBtn": "إلغاء",
+    "emailBanner": {
+      "title": "بريدك الإلكتروني لم يتم التحقق منه بعد",
+      "body": "تحقق من صندوق الوارد وانقر على رابط التأكيد لتفعيل جميع الميزات."
+    },
+    "profile": {
+      "title": "المعلومات الشخصية",
+      "memberSince": "عضو منذ",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "savingBtn": "جار الحفظ...",
+      "saveBtn": "حفظ"
+    },
+    "password": {
+      "title": "تغيير كلمة المرور",
+      "current": "كلمة المرور الحالية",
+      "new": "كلمة المرور الجديدة",
+      "newPlaceholder": "8 أحرف على الأقل",
+      "confirm": "تأكيد كلمة المرور الجديدة",
+      "savingBtn": "جار التعديل...",
+      "saveBtn": "تعديل كلمة المرور"
+    },
+    "twofa": {
+      "title": "المصادقة الثنائية (2FA)",
+      "enabled": "المصادقة الثنائية مفعلة على حسابك.",
+      "disabled": "عزز أمان حسابك برمز TOTP.",
+      "badge": "مفعل",
+      "setupBtn": "إعداد المصادقة الثنائية",
+      "setupLoading": "جار الإعداد...",
+      "qrStep1": "1. امسح رمز QR هذا بتطبيق المصادقة (Google Authenticator، Authy، إلخ.)",
+      "qrManual": "أو أدخل هذا الرمز يدويًا:",
+      "qrStep2": "2. أدخل الرمز المكون من 6 أرقام المعروض في تطبيقك",
+      "verifyLoading": "جار التحقق...",
+      "verifyBtn": "تفعيل المصادقة الثنائية",
+      "disableBtn": "تعطيل المصادقة الثنائية",
+      "disablePrompt": "أدخل رمزًا من تطبيق المصادقة لتأكيد التعطيل.",
+      "disableLoading": "جار التعطيل...",
+      "disableConfirmBtn": "تأكيد التعطيل"
+    },
+    "deactivate": {
+      "title": "تعطيل الحساب",
+      "subtitle": "سيتم تعطيل حسابك ولكن بياناتك ستُحفظ.",
+      "btn": "تعطيل حسابي",
+      "confirmText": "سيتم تعطيل حسابك ولن تتمكن من تسجيل الدخول. تواصل مع الدعم لإعادة التفعيل.",
+      "loading": "جار التعطيل...",
+      "confirmBtn": "تأكيد التعطيل"
+    },
+    "delete": {
+      "title": "حذف الحساب",
+      "subtitle": "هذا الإجراء لا رجعة فيه.",
+      "btn": "حذف حسابي",
+      "confirmPromptPrefix": "اكتب",
+      "confirmPromptSuffix": "لتأكيد الحذف النهائي لحسابك.",
+      "confirmWord": "حذف",
+      "srOnly": "اكتب حذف للتأكيد",
+      "loading": "جار الحذف...",
+      "confirmBtn": "تأكيد الحذف"
+    },
+    "toasts": {
+      "emailUpdated": "تم تحديث البريد الإلكتروني بنجاح",
+      "emailConfirmInvalid": "رابط التأكيد غير صالح",
+      "profileLoadError": "تعذر تحميل الملف الشخصي",
+      "pendingEmailChange": "تم إرسال بريد إلكتروني للتأكيد إلى عنوانك الجديد.",
+      "profileUpdated": "تم تحديث الملف الشخصي",
+      "profileUpdateError": "خطأ في تحديث الملف الشخصي",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين",
+      "passwordTooShort": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+      "passwordChanged": "تم تغيير كلمة المرور",
+      "passwordChangeError": "خطأ في تغيير كلمة المرور",
+      "deactivated": "تم تعطيل الحساب",
+      "deactivateError": "خطأ في تعطيل الحساب",
+      "deleted": "تم حذف الحساب",
+      "deleteError": "خطأ في حذف الحساب",
+      "twoFASetupError": "خطأ في إعداد المصادقة الثنائية",
+      "twoFAEnabled": "تم تفعيل المصادقة الثنائية!",
+      "twoFACodeInvalid": "رمز غير صالح",
+      "twoFADisabled": "تم تعطيل المصادقة الثنائية"
+    }
+  },
+  "adminCategories": {
+    "pageTitle": "الفئات",
+    "countSingular": "فئة",
+    "countPlural": "فئات",
+    "newBtn": "+ فئة جديدة",
+    "cancelBtn": "إلغاء",
+    "table": {
+      "order": "الترتيب",
+      "image": "الصورة",
+      "name": "الاسم",
+      "parent": "الفئة الأم",
+      "products": "المنتجات",
+      "home": "الرئيسية",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "row": {
+      "dragTitle": "اسحب لإعادة الترتيب",
+      "root": "جذر",
+      "featuredTitle": "إزالة من الرئيسية",
+      "notFeaturedTitle": "عرض على الرئيسية",
+      "featuredBtn": "★ الرئيسية",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "editBtn": "تعديل"
+    },
+    "form": {
+      "titleEdit": "تعديل:",
+      "titleNew": "فئة جديدة",
+      "name": "الاسم *",
+      "namePlaceholder": "تشخيص طبي",
+      "slug": "مسار SEO",
+      "slugPlaceholder": "medical-diagnostics (يُنشأ تلقائيًا إذا تُرك فارغًا)",
+      "parentCategory": "الفئة الأم",
+      "parentNone": "— لا شيء (فئة جذر)",
+      "position": "الموضع (ترتيب العرض)",
+      "imageUrl": "الصورة (URL)",
+      "activeLabel": "نشط (مرئي على الموقع)",
+      "featuredLabel": "★ مميز (الصفحة الرئيسية)",
+      "description": "الوصف",
+      "descriptionPlaceholder": "وصف مختصر للفئة",
+      "translationsTitle": "الترجمات",
+      "translatedName": "الاسم المترجم",
+      "translatedDescription": "الوصف المترجم",
+      "saveBtn": "حفظ",
+      "createBtn": "إنشاء"
+    },
+    "empty": "لا توجد فئات. أنشئ فئة للبدء.",
+    "deleteConfirm": "حذف هذه الفئة؟ لن يتم حذف المنتجات المرتبطة.",
+    "toasts": {
+      "loadError": "خطأ في تحميل الفئات",
+      "translationsLoadError": "تعذر تحميل ترجمات الفئة",
+      "nameRequired": "الاسم مطلوب",
+      "updated": "تم تحديث الفئة",
+      "created": "تم إنشاء الفئة",
+      "error": "خطأ",
+      "deleted": "تم حذف الفئة",
+      "deactivated": "تم تعطيل الفئة",
+      "activated": "تم تفعيل الفئة",
+      "unfeatured": "تمت الإزالة من المميزات",
+      "featured": "تم العرض على الرئيسية",
+      "reordered": "تم تحديث الترتيب"
+    }
+  },
+  "addresses": {
+    "pageTitle": "دفتر العناوين",
+    "addBtn": "إضافة عنوان",
+    "emptyText": "لا توجد عناوين محفوظة.",
+    "defaultBadge": "افتراضي",
+    "phone": "هاتف:",
+    "setDefaultBtn": "افتراضي",
+    "editBtn": "تعديل",
+    "deleteBtn": "حذف",
+    "deleteConfirm": "حذف هذا العنوان؟",
+    "form": {
+      "titleEdit": "تعديل العنوان",
+      "titleNew": "عنوان جديد",
+      "label": "التسمية (اختياري)",
+      "labelPlaceholder": "مثال: عيادة، منزل",
+      "firstName": "الاسم الأول *",
+      "lastName": "اسم العائلة *",
+      "street": "العنوان *",
+      "postalCode": "الرمز البريدي *",
+      "city": "المدينة *",
+      "country": "البلد",
+      "phone": "الهاتف",
+      "isDefault": "تعيين كعنوان افتراضي",
+      "cancelBtn": "إلغاء",
+      "savingBtn": "جار الحفظ...",
+      "saveBtn": "حفظ"
+    },
+    "toasts": {
+      "requiredFields": "يرجى ملء الحقول الإلزامية",
+      "updated": "تم تحديث العنوان",
+      "added": "تمت إضافة العنوان",
+      "saveError": "خطأ في حفظ العنوان",
+      "deleted": "تم حذف العنوان",
+      "deleteError": "خطأ في حذف العنوان",
+      "defaultUpdated": "تم تحديث العنوان الافتراضي",
+      "defaultError": "خطأ"
+    }
+  },
+  "confirmation": {
+    "notFound": "الطلب غير موجود",
+    "banner": {
+      "title": "تم تأكيد الطلب!",
+      "orderPrefix": "طلب",
+      "status": {
+        "PENDING": "قيد الانتظار",
+        "CONFIRMED": "مؤكد",
+        "PROCESSING": "قيد المعالجة",
+        "SHIPPED": "تم الشحن",
+        "DELIVERED": "تم التسليم"
+      }
+    },
+    "products": {
+      "title": "المنتجات المطلوبة",
+      "unitHT": "باستثناء الضريبة ×"
+    },
+    "totals": {
+      "subtotal": "المجموع الجزئي باستثناء الضريبة",
+      "tax": "الضريبة (20%)",
+      "shipping": "الشحن",
+      "free": "مجاني",
+      "total": "الإجمالي شامل الضريبة"
+    },
+    "address": {
+      "title": "عنوان التسليم",
+      "phone": "هاتف:"
+    },
+    "payment": {
+      "title": "الدفع",
+      "stripe": "دفع آمن عبر Stripe",
+      "invoicePrefix": "فاتورة رقم"
+    },
+    "actions": {
+      "myOrders": "عرض طلباتي",
+      "continueShopping": "متابعة التسوق",
+      "downloadInvoice": "تحميل الفاتورة"
+    }
+  },
+  "adminInvoices": {
+    "pageTitle": "الفواتير",
+    "countSingular": "فاتورة",
+    "countPlural": "فواتير",
+    "emptyText": "لا توجد فواتير.",
+    "downloadTitle": "تحميل PDF",
+    "emailTitle": "إرسال بالبريد الإلكتروني",
+    "cancelTitle": "إلغاء وإنشاء مذكرة ائتمان",
+    "cancelReasonDefault": "إلغاء الفاتورة",
+    "filter": {
+      "all": "الكل",
+      "paid": "مدفوعة",
+      "pending": "في الانتظار",
+      "canceled": "ملغاة"
+    },
+    "table": {
+      "invoiceNumber": "رقم الفاتورة",
+      "date": "التاريخ",
+      "client": "العميل",
+      "order": "الطلب",
+      "amountTTC": "المبلغ شامل الضريبة",
+      "status": "الحالة",
+      "creditNote": "مذكرة الائتمان",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "PAID": "مدفوعة",
+      "PENDING": "في الانتظار",
+      "CANCELED": "ملغاة"
+    },
+    "pagination": {
+      "page": "صفحة",
+      "prev": "السابق",
+      "next": "التالي"
+    },
+    "modal": {
+      "title": "إلغاء الفاتورة",
+      "descPrefix": "سيتم إلغاء الفاتورة",
+      "descSuffix": "وسيتم إنشاء مذكرة ائتمان تلقائياً.",
+      "reasonLabel": "سبب الإلغاء",
+      "reasonPlaceholder": "مثال: خطأ في الطلب، استرداد العميل...",
+      "cancelBtn": "إلغاء",
+      "confirmBtn": "تأكيد الإلغاء"
+    },
+    "toasts": {
+      "loadError": "خطأ في تحميل الفواتير.",
+      "emailSentPrefix": "تم إرسال الفاتورة",
+      "emailSentSuffix": "بالبريد الإلكتروني.",
+      "emailError": "خطأ في إرسال البريد الإلكتروني.",
+      "cancelledPrefix": "تم إلغاء الفاتورة",
+      "cancelledSuffix": "وتم إنشاء مذكرة ائتمان تلقائياً.",
+      "cancelError": "خطأ في إلغاء الفاتورة."
+    }
+  },
+  "adminShipping": {
+    "pageTitle": "قواعد الشحن",
+    "countSingular": "قاعدة شحن",
+    "countPlural": "قواعد شحن",
+    "addBtn": "قاعدة جديدة",
+    "hint": "يتم تقييم القواعد حسب الأولوية (الأدنى = الأعلى أولوية). يتم تطبيق أول قاعدة مطابقة.",
+    "htSuffix": "بدون ضريبة",
+    "emptyText": "لا توجد قواعد مُعينة. أضف قاعدة للبدء.",
+    "editTitle": "تعديل",
+    "deleteTitle": "حذف",
+    "deleteConfirm": "هل تريد حذف هذه القاعدة؟",
+    "table": {
+      "priority": "الأولوية",
+      "label": "التسمية",
+      "type": "النوع",
+      "amount": "المبلغ",
+      "minSubtotal": "الحد الأدنى",
+      "maxSubtotal": "الحد الأقصى",
+      "active": "نشط",
+      "actions": "الإجراءات"
+    },
+    "types": {
+      "FLAT": "سعر ثابت",
+      "FREE_ABOVE": "مجاني فوق",
+      "CUSTOM": "مخصص (رسالة)"
+    },
+    "form": {
+      "titleEdit": "تعديل القاعدة",
+      "titleNew": "قاعدة جديدة",
+      "labelField": "التسمية",
+      "labelPlaceholder": "مثال: الشحن العادي",
+      "typeField": "النوع",
+      "typeFlatOption": "سعر ثابت",
+      "typeFreeAboveOption": "مجاني فوق حد معين",
+      "typeCustomOption": "مخصص (رسالة شخصية)",
+      "amountField": "المبلغ (بالسنت)",
+      "minSubtotalField": "الحد الأدنى (€ بدون ضريبة)",
+      "maxSubtotalField": "الحد الأقصى (€ بدون ضريبة)",
+      "optional": "اختياري",
+      "messageField": "الرسالة المعروضة",
+      "messagePlaceholder": "مثال: تواصل معنا للحصول على عرض شحن",
+      "priorityField": "الأولوية",
+      "priorityHint": "كلما كان الرقم أدنى، كانت الأولوية أعلى.",
+      "activeLabel": "القاعدة نشطة",
+      "cancelBtn": "إلغاء",
+      "saveBtn": "حفظ",
+      "createBtn": "إنشاء"
+    },
+    "toasts": {
+      "loadError": "خطأ في تحميل القواعد",
+      "labelRequired": "التسمية مطلوبة",
+      "updated": "تم تعديل القاعدة",
+      "created": "تم إنشاء القاعدة",
+      "deleted": "تم حذف القاعدة",
+      "error": "خطأ"
+    }
+  },
+  "importModal": {
+    "title": "استيراد المنتجات",
+    "upload": {
+      "dragText": "اسحب ملف CSV أو Excel هنا",
+      "clickText": "أو انقر للتصفح",
+      "chooseBtn": "اختيار ملف",
+      "formatTitle": "التنسيق المتوقع",
+      "formatDesc1": "الأعمدة: name (مطلوب), price (مطلوب، بالأورو), stock, sku, category (الاسم), description, images (روابط مفصولة بـ ;)",
+      "formatDesc2": "يجب أن يحتوي الصف الأول على العناوين. تُقبل أيضاً أسماء الأعمدة بالفرنسية: nom, prix, quantite, ref, categorie."
+    },
+    "loading": {
+      "analyzing": "جارٍ تحليل الملف...",
+      "importing": "جارٍ الاستيراد..."
+    },
+    "preview": {
+      "validSingular": "صالح",
+      "validPlural": "صالحة",
+      "errorSingular": "خطأ",
+      "errorPlural": "أخطاء",
+      "table": {
+        "line": "الصف",
+        "name": "الاسم",
+        "price": "السعر",
+        "stock": "المخزون",
+        "sku": "SKU",
+        "category": "الفئة",
+        "status": "الحالة"
+      },
+      "truncatedPrefix": "عرض أول 100 صفوف من أصل",
+      "truncatedSuffix": "إجمالاً."
+    },
+    "result": {
+      "title": "اكتمل الاستيراد",
+      "createdSingular": "تم الإنشاء",
+      "createdPlural": "تم الإنشاء",
+      "failedSingular": "فشل",
+      "failedPlural": "فشل",
+      "linePrefix": "الصف"
+    },
+    "footer": {
+      "cancelBtn": "إلغاء",
+      "changeFileBtn": "تغيير الملف",
+      "importBtnPrefix": "استيراد",
+      "importBtnProductSingular": "منتج",
+      "importBtnProductPlural": "منتجات",
+      "closeBtn": "إغلاق"
+    },
+    "toasts": {
+      "formatError": "تنسيق غير مدعوم. يرجى استخدام ملف CSV أو Excel (.xlsx).",
+      "analyzeError": "خطأ في تحليل الملف",
+      "noValidRows": "لا توجد صفوف صالحة للاستيراد",
+      "importedSingular": "منتج مستورد",
+      "importedPlural": "منتجات مستوردة",
+      "importError": "خطأ أثناء الاستيراد"
+    }
+  },
+  "adminCreditNotes": {
+    "pageTitle": "مذكرات الائتمان",
+    "countSingular": "مذكرة ائتمان",
+    "countPlural": "مذكرات ائتمان",
+    "emptyText": "لا توجد مذكرات ائتمان.",
+    "downloadTitle": "تحميل PDF",
+    "emailTitle": "إرسال بالبريد الإلكتروني",
+    "table": {
+      "creditNoteNumber": "رقم المذكرة",
+      "linkedInvoice": "الفاتورة المرتبطة",
+      "date": "التاريخ",
+      "client": "العميل",
+      "amount": "المبلغ",
+      "reason": "السبب",
+      "actions": "الإجراءات"
+    },
+    "pagination": {
+      "page": "صفحة",
+      "prev": "السابق",
+      "next": "التالي"
+    },
+    "toasts": {
+      "loadError": "خطأ في تحميل مذكرات الائتمان.",
+      "emailSentPrefix": "تم إرسال المذكرة",
+      "emailSentSuffix": "بالبريد الإلكتروني.",
+      "emailError": "خطأ في إرسال البريد الإلكتروني."
+    }
+  },
+  "adminConversations": {
+    "pageTitle": "محادثات روبوت المحادثة",
+    "countSingular": "محادثة مسجلة",
+    "countPlural": "محادثات مسجلة",
+    "anonymous": "مجهول",
+    "messageSingular": "رسالة",
+    "messagePlural": "رسائل",
+    "emptyConversations": "لا توجد محادثات مسجلة",
+    "emptyMessages": "لا توجد رسائل",
+    "pagination": {
+      "prev": "السابق",
+      "next": "التالي"
+    }
+  },
+  "adminSiteSettings": {
+    "pageTitle": "محتوى الموقع",
+    "pageDesc": "عدّل النصوص المعروضة على الصفحة الرئيسية والأقسام العامة الأخرى.",
+    "groups": {
+      "tagline": "عبارة ترويجية تحت الشريط الدوار",
+      "general": "عام"
+    },
+    "saveBtn": "حفظ التغييرات",
+    "savingBtn": "جارٍ الحفظ…",
+    "cancelBtn": "إلغاء",
+    "toasts": {
+      "loadError": "خطأ في تحميل الإعدادات",
+      "saved": "تم تحديث المحتوى",
+      "saveError": "خطأ في حفظ الإعدادات"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Railway config — Backend NestJS
+# Utiliser rootDir = "." dans le dashboard Railway pour ce service
+
+[build]
+builder = "nixpacks"
+buildCommand = "npm ci && npm run build --workspace=apps/backend"
+
+[deploy]
+startCommand = "npm run db:deploy --workspace=apps/backend && node apps/backend/dist/main.js"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 120
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3

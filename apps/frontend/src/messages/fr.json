@@ -1,0 +1,1329 @@
+{
+  "home": {
+    "subtitle": "Plateforme intelligente de gestion, recherche et automatisation propulsée par l'IA.",
+    "cta": {
+      "dashboard": "Accéder au tableau de bord",
+      "login": "Se connecter"
+    },
+    "features": {
+      "search": {
+        "title": "Recherche avancée",
+        "description": "Trouvez instantanément ce que vous cherchez grâce à Meilisearch et Algolia."
+      },
+      "ai": {
+        "title": "Assistant IA",
+        "description": "Un chatbot intelligent propulsé par OpenAI et Anthropic Claude pour vous accompagner."
+      },
+      "payments": {
+        "title": "Paiements sécurisés",
+        "description": "Gérez vos abonnements et paiements en toute sécurité avec Stripe."
+      }
+    },
+    "footer": {
+      "rights": "Tous droits réservés."
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "register": "Créer un compte",
+    "logout": "Se déconnecter",
+    "email": "Email",
+    "password": "Mot de passe",
+    "name": "Nom",
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "loginLoading": "Connexion...",
+    "noAccount": "Pas de compte ?",
+    "alreadyAccount": "Déjà un compte ?",
+    "confirmPassword": "Confirmer le mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "confirm": "Confirmer",
+    "passwordPlaceholder": "Min. 8 caractères",
+    "emailPlaceholder": "votre@email.com",
+    "passwordStrength": {
+      "label": "Force :",
+      "weak": "Faible",
+      "medium": "Moyen",
+      "good": "Bon",
+      "strong": "Fort"
+    },
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères.",
+    "passwordMatch": "Les mots de passe correspondent ✓",
+    "creating": "Création...",
+    "createAccount": "Créer le compte",
+    "accountCreated": "Compte créé avec succès !",
+    "emailConfirmationSent": "Un email de confirmation a été envoyé à",
+    "clickLinkToActivate": "Cliquez sur le lien dans l'email pour activer votre compte et vous connecter automatiquement.",
+    "forgotPasswordTitle": "Mot de passe oublié",
+    "forgotPasswordDesc": "Entrez votre email pour recevoir un lien de réinitialisation.",
+    "sending": "Envoi...",
+    "sendLink": "Envoyer le lien",
+    "backToLogin": "Retour à la connexion",
+    "emailSentConfirm": "Si un compte existe avec cet email, vous recevrez un lien de réinitialisation.",
+    "newPasswordTitle": "Nouveau mot de passe",
+    "newPasswordDesc": "Choisissez un nouveau mot de passe.",
+    "resetting": "Réinitialisation...",
+    "resetPassword": "Réinitialiser",
+    "resetSuccessDesc": "Votre mot de passe a été réinitialisé avec succès.",
+    "invalidLink": "Lien invalide",
+    "invalidLinkDesc": "Ce lien de réinitialisation est invalide.",
+    "requestNewLink": "Demander un nouveau lien",
+    "verifying": "Vérification en cours...",
+    "verifyingDesc": "Validation de votre adresse email.",
+    "emailVerified": "Email vérifié !",
+    "redirectingSoon": "Redirection automatique dans quelques secondes...",
+    "accessSite": "Accéder au site",
+    "verifyFailed": "Vérification échouée",
+    "invalidVerifyLink": "Lien de vérification invalide.",
+    "expiredVerifyLink": "Lien de vérification invalide ou expiré.",
+    "twoFA": {
+      "title": "Vérification 2FA",
+      "description": "Entrez le code à 6 chiffres de votre application d'authentification.",
+      "verifying": "Vérification...",
+      "verify": "Vérifier",
+      "back": "Retour à la connexion",
+      "prompt": "Entrez votre code d'authentification à deux facteurs."
+    },
+    "toasts": {
+      "loginSuccess": "Connexion réussie !",
+      "loginError": "Erreur de connexion",
+      "twoFAInvalid": "Code 2FA invalide",
+      "registerError": "Erreur lors de la création du compte",
+      "sendLinkSuccess": "Email envoyé !",
+      "sendLinkError": "Erreur lors de l'envoi",
+      "resetSuccess": "Mot de passe réinitialisé !",
+      "resetError": "Lien invalide ou expiré",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères.",
+      "passwordMismatch": "Les mots de passe ne correspondent pas."
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue sur Althea System"
+  },
+  "chat": {
+    "placeholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "empty": "Posez une question à l'assistant Althea...",
+    "title": "Assistant Althea",
+    "dialogLabel": "Assistant IA Althea",
+    "online": "En ligne",
+    "openLabel": "Ouvrir l'assistant IA",
+    "closeLabel": "Fermer le chat",
+    "close": "Fermer",
+    "clearConversation": "Effacer la conversation",
+    "messagesLabel": "Messages du chat",
+    "typingLabel": "L'assistant est en train d'écrire",
+    "typingSr": "L'assistant écrit…",
+    "welcomeTitle": "Comment puis-je vous aider ?",
+    "welcomeSubtitle": "Posez votre question ou choisissez ci-dessous",
+    "messagePlaceholder": "Votre message…",
+    "speakToAdvisor": "Parler à un conseiller humain",
+    "suggestion1": "Quels produits proposez-vous ?",
+    "suggestion2": "Comment suivre ma commande ?",
+    "suggestion3": "Quels sont vos délais de livraison ?",
+    "suggestion4": "Comment vous contacter ?",
+    "escalation": {
+      "title": "Parler à un conseiller",
+      "namePlaceholder": "Votre nom",
+      "emailPlaceholder": "Votre email",
+      "messagePlaceholder": "Précisez votre demande (optionnel)",
+      "sending": "Envoi…",
+      "submit": "Envoyer",
+      "cancel": "Annuler",
+      "sentTitle": "Message envoyé ✓",
+      "sentMessage": "Notre équipe vous contactera sous 24-48h.",
+      "backToChat": "Retour au chat"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Catalogue",
+    "contact": "Contact",
+    "myAccount": "Mon compte",
+    "backoffice": "Backoffice",
+    "login": "Connexion",
+    "register": "Inscription",
+    "logout": "Déconnexion",
+    "searchAriaLabel": "Recherche de produits",
+    "searchLabel": "Rechercher un produit",
+    "searchPlaceholder": "Rechercher un produit...",
+    "searchSubmit": "Lancer la recherche",
+    "seeAllResultsFor": "Voir tous les résultats pour \u00ab {query} \u00bb",
+    "cartAria": "Panier",
+    "cartAriaWithCount": "Panier, {count} article(s)",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "mobileMenu": "Menu mobile",
+    "suggestionsAriaLabel": "Suggestions de recherche",
+    "productSingular": "produit",
+    "productPlural": "produits",
+    "catalogLabel": "Catalogue",
+    "viewAll": "Voir tout",
+    "quickAccess": "Accès rapide",
+    "categories": "Catégories",
+    "categoriesLoading": "Chargement des catégories…",
+    "allProducts": "Tous les produits",
+    "filterNew": "Nouveautés",
+    "filterAvailable": "Disponibles",
+    "filterSale": "Promotions",
+    "filterFeatured": "En vedette"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Matériel médical de pointe pour votre cabinet",
+      "subtitle": "Diagnostic, instruments chirurgicaux, mobilier et consommables — Une sélection professionnelle livrée chez vous.",
+      "cta": "Voir le catalogue",
+      "discover": "Découvrir"
+    },
+    "carouselAria": "Promotions et actualités",
+    "carouselTabsAria": "Diapositives du carrousel",
+    "tagline": {
+      "title": "Althea System — Votre partenaire en équipement médical",
+      "description": "Fournisseur de matériel médical de pointe pour cabinets médicaux depuis 2024. Nous sélectionnons les meilleures marques pour vous offrir qualité, fiabilité et un service d'exception.",
+      "products": "Produits référencés",
+      "categories": "Catégories",
+      "shipping": "Livraison gratuite",
+      "support": "SAV réactif"
+    },
+    "categoriesTitle": "Nos catégories",
+    "viewAllCategories": "Voir toutes les catégories ->",
+    "productsCount": "produits",
+    "featuredTitle": "Top Produits du moment",
+    "outOfStock": "Rupture",
+    "limitedStock": "Stock limité",
+    "addToCart": "Ajouter au panier",
+    "inStock": "En stock",
+    "unavailable": "Indisponible",
+    "viewFullCatalog": "Voir tout le catalogue",
+    "learnMore": "En savoir plus",
+    "reassurance": {
+      "fastDelivery": {
+        "title": "Livraison rapide",
+        "description": "Gratuite dès 100 EUR HT. Expédition sous 24 a 48h."
+      },
+      "certifiedQuality": {
+        "title": "Qualité certifiée",
+        "description": "Matériel conforme aux normes CE et marquage médical."
+      },
+      "responsiveSupport": {
+        "title": "SAV réactif",
+        "description": "Notre équipe vous répond sous 48h par email ou téléphone."
+      },
+      "securePayment": {
+        "title": "Paiement sécurisé",
+        "description": "Transactions sécurisées par Stripe. CB, virement, prélèvement."
+      }
+    }
+  },
+  "productsPage": {
+    "title": "Notre Catalogue",
+    "results": "résultats",
+    "found": "trouvé",
+    "filters": "Filtres",
+    "sort": {
+      "default": "Tri par défaut",
+      "priceAsc": "Prix croissant",
+      "priceDesc": "Prix décroissant",
+      "newest": "Plus récents",
+      "availability": "Disponibilité"
+    },
+    "search": "Rechercher...",
+    "searchLabel": "Recherche",
+    "category": "Catégorie",
+    "allCategories": "Toutes les catégories",
+    "price": "Prix",
+    "priceExclTax": "HT",
+    "min": "Min",
+    "max": "Max",
+    "inStockOnly": "En stock uniquement",
+    "inStock": "En stock",
+    "reset": "Réinitialiser les filtres",
+    "noResults": "Aucun produit trouvé",
+    "noResultsDesc": "Essayez d'ajuster vos filtres ou votre recherche",
+    "clearAllFilters": "Effacer tous les filtres",
+    "viewDetails": "Voir les détails",
+    "featured": "Vedette",
+    "page": "Page",
+    "of": "sur",
+    "sortBy": "Trier par",
+    "openFilters": "Ouvrir les filtres",
+    "closeFilters": "Fermer les filtres",
+    "filtersAria": "Filtres de produits",
+    "priceMin": "Prix minimum",
+    "priceMax": "Prix maximum",
+    "loading": "Chargement des produits...",
+    "addToCartAria": "Ajouter {name} au panier",
+    "paginationAria": "Pagination des produits",
+    "gridView": "Vue grille",
+    "listView": "Vue liste",
+    "filterFeatured": "En vedette",
+    "filterOnSale": "En promo",
+    "filterNewest": "Nouveautés en premier",
+    "specs": "Caractéristiques",
+    "addToCartShort": "+ Panier",
+    "outOfStock": "Rupture de stock"
+  },
+  "productDetailPage": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "products": "Produits"
+    },
+    "imageAlt": "{name} - vue {index}",
+    "carousel": {
+      "prevImage": "Image précédente",
+      "nextImage": "Image suivante"
+    },
+    "priceExclTax": "HT",
+    "description": "Description",
+    "technicalSpecs": "Caractéristiques techniques",
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "similarProducts": "Produits similaires",
+    "addedToCart": "{name} ajouté au panier !",
+    "stock": {
+      "inStock": "En stock",
+      "outOfStock": "En rupture de stock",
+      "shortOutOfStock": "Rupture",
+      "limited": "Stock limité ({count} restant)"
+    }
+  },
+  "contactPage": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Besoin d'aide ? Notre équipe est à votre disposition.",
+    "subtitleShort": "Une question, une suggestion ? N'hésitez pas à nous écrire.",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer",
+    "sendMessage": "Envoyer le message",
+    "sending": "Envoi...",
+    "success": "Message envoyé avec succès !",
+    "successTitle": "Message envoyé !",
+    "successMessage": "Nous vous répondrons dans les plus brefs délais.",
+    "sendAnother": "Envoyer un autre message",
+    "error": "Erreur lors de l'envoi",
+    "badge": "Contact",
+    "availability": "Disponible du lundi au vendredi, 9h–18h.",
+    "responseTimeLabel": "Temps de réponse",
+    "responseTimeValue": "Généralement sous 24 h ouvrées",
+    "info": {
+      "title": "Informations de contact",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email"
+    }
+  },
+  "dashboardPage": {
+    "welcome": "Bienvenue",
+    "adminDashboard": "Tableau de bord administrateur",
+    "userDashboard": "Votre espace personnel",
+    "kpi": {
+      "revenueToday": "CA du jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "orders": "Commandes",
+      "today": "Aujourd'hui",
+      "pending": "En attente",
+      "stockAlerts": "Alertes stock",
+      "onXActiveProducts": "Sur {count} produits actifs",
+      "unreadMessages": "Messages non lus",
+      "registeredUsers": "{count} utilisateurs inscrits"
+    },
+    "salesByCategory": {
+      "title": "Ventes par catégorie",
+      "noSales": "Aucune vente sur cette période.",
+      "last7days": "7 derniers jours",
+      "last14days": "14 derniers jours",
+      "last5weeks": "5 dernières semaines",
+      "lastMonth": "Dernier mois",
+      "last3months": "3 derniers mois",
+      "total": "Total",
+      "histogramSubtitle": "Histogramme multi-couches — total des ventes par catégorie"
+    },
+    "stockAlertsWidget": {
+      "title": "Alertes stock",
+      "viewAll": "Voir tout",
+      "outOfStock": "Rupture",
+      "remaining": "restant",
+      "noAlerts": "Aucune alerte de stock."
+    },
+    "quickActions": {
+      "addProduct": "Ajouter un produit",
+      "newMedicalEquipment": "Nouveau matériel médical",
+      "newOrder": "Nouvelle commande",
+      "createOrderManually": "Créer une commande manuellement",
+      "manageOrders": "Gérer les commandes",
+      "pendingOrders": "{count} en attente",
+      "messages": "Messages",
+      "unread": "{count} non lu",
+      "users": "Utilisateurs",
+      "registered": "{count} inscrits",
+      "browseCatalog": "Parcourir le catalogue",
+      "cuttingEdgeMedical": "Matériel médical de pointe",
+      "myOrders": "Mes commandes",
+      "trackOrders": "Suivre vos commandes",
+      "settings": "Paramètres",
+      "editProfile": "Modifier votre profil"
+    },
+    "recentOrdersTable": {
+      "title": "Commandes récentes",
+      "viewAll": "Tout voir",
+      "orderNumber": "N° commande",
+      "customer": "Client",
+      "status": "Statut",
+      "items": "Articles",
+      "totalIncTax": "Total TTC",
+      "guest": "Invité",
+      "noOrders": "Aucune commande pour le moment."
+    },
+    "topProducts": {
+      "title": "Top produits (30j)",
+      "sold": "vendu",
+      "revenue": "CA",
+      "noSales": "Aucune vente sur la période."
+    },
+    "myOrdersWidget": {
+      "title": "Mes commandes récentes",
+      "noOrders": "Aucune commande pour le moment.",
+      "browseCatalog": "Parcourir le catalogue"
+    },
+    "orderStatus": {
+      "PENDING": "En attente",
+      "CONFIRMED": "Confirmée",
+      "PROCESSING": "En cours",
+      "SHIPPED": "Expédiée",
+      "DELIVERED": "Livrée",
+      "CANCELED": "Annulée",
+      "REFUNDED": "Remboursée"
+    }
+  },
+  "dashboardLayout": {
+    "title": "Tableau de bord",
+    "sidebarAria": "Menu du tableau de bord",
+    "navigationAria": "Navigation du tableau de bord",
+    "openMenu": "Ouvrir le menu",
+    "administration": "Administration",
+    "logout": "Déconnexion",
+    "links": {
+      "dashboard": "Tableau de bord",
+      "orders": "Mes commandes",
+      "search": "Recherche",
+      "aiAssistant": "Assistant IA",
+      "addresses": "Carnet d'adresses",
+      "payment": "Paiement",
+      "settings": "Paramètres"
+    },
+    "adminLinks": {
+      "products": "Produits",
+      "categories": "Catégories",
+      "orders": "Commandes",
+      "users": "Utilisateurs",
+      "messages": "Messages",
+      "conversations": "Conversations IA",
+      "carousel": "Carrousel",
+      "siteContent": "Contenu du site",
+      "shipping": "Livraison"
+    },
+    "roles": {
+      "ADMIN": "Administrateur",
+      "MANAGER_PRODUCTS": "Gestionnaire Produits",
+      "MANAGER_ORDERS": "Gestionnaire Commandes",
+      "ACCOUNTANT": "Comptable",
+      "MODERATOR": "Modérateur"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "Votre fournisseur de matériel médical de pointe pour cabinets médicaux. Diagnostic, instruments chirurgicaux, mobilier et consommables."
+    },
+    "catalog": {
+      "title": "Catalogue",
+      "allProducts": "Tous les produits",
+      "diagnostic": "Diagnostic",
+      "furniture": "Mobilier médical",
+      "surgical": "Instruments chirurgicaux"
+    },
+    "account": {
+      "title": "Mon compte",
+      "login": "Connexion",
+      "register": "Inscription",
+      "mySpace": "Mon espace",
+      "orders": "Mes commandes"
+    },
+    "info": {
+      "title": "Informations",
+      "contact": "Contact",
+      "legal": "Mentions légales",
+      "terms": "CGV",
+      "privacy": "Confidentialité"
+    },
+    "copyright": "Althea System — Matériel médical pour cabinets. Tous droits réservés.",
+    "tagline": "Dispositifs médicaux professionnels · Livraison en France"
+  },
+  "admin": {
+    "products": {
+      "title": "Gestion des produits",
+      "addProduct": "Ajouter un produit",
+      "editProduct": "Modifier le produit",
+      "deleteProduct": "Supprimer le produit",
+      "productName": "Nom du produit",
+      "description": "Description",
+      "price": "Prix (centimes)",
+      "comparePrice": "Prix de comparaison (optionnel)",
+      "sku": "SKU",
+      "stock": "Stock",
+      "lowStockThreshold": "Alerte stock bas",
+      "category": "Catégorie",
+      "selectCategory": "Sélectionner une catégorie",
+      "images": "Images (URLs, séparées par virgule)",
+      "documents": "Documents (URLs)",
+      "featured": "En vedette",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "tvaRate": "Taux TVA",
+      "actions": "Actions",
+      "bulkActions": "Actions groupées",
+      "deleteSelected": "Supprimer la sélection",
+      "search": "Rechercher des produits...",
+      "filterByCategory": "Filtrer par catégorie",
+      "filterByStatus": "Filtrer par statut",
+      "allCategories": "Toutes les catégories",
+      "allStatuses": "Tous",
+      "activeOnly": "Actifs",
+      "inactiveOnly": "Inactifs",
+      "totalProducts": "{count} produits",
+      "loadingError": "Erreur de chargement",
+      "deleteError": "Erreur de suppression",
+      "createSuccess": "Produit créé avec succès",
+      "updateSuccess": "Produit mis à jour avec succès",
+      "deleteSuccess": "Produit supprimé avec succès",
+      "confirmDelete": "Supprimer ce produit ?",
+      "confirmBulkDelete": "Supprimer {count} produits sélectionnés ?",
+      "page": "Page",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "priceExclTax": "Prix HT",
+      "priceInclTax": "Prix TTC",
+      "translations": "Traductions",
+      "translationName": "Nom traduit",
+      "translationDescription": "Description traduite",
+      "translationsLoadError": "Impossible de charger les traductions du produit",
+      "requiredError": "Le nom et le prix sont requis",
+      "exportError": "Erreur lors de l'export",
+      "importBtn": "Importer",
+      "slugField": "Slug SEO",
+      "slugPlaceholderHint": "(auto-généré si vide)",
+      "comparePricePlaceholder": "Optionnel",
+      "tableColImage": "Image",
+      "tableColProduct": "Produit",
+      "tableColVat": "TVA",
+      "tableColStatus": "Statut",
+      "featuredBadge": "★ Mis en avant",
+      "statusPublished": "Publié",
+      "statusDraft": "Brouillon",
+      "editBtn": "Modifier",
+      "rowsPerPage": "Lignes par page :"
+    },
+    "orders": {
+      "title": "Gestion des commandes",
+      "orderNumber": "N° commande",
+      "customer": "Client",
+      "status": "Statut",
+      "items": "Articles",
+      "totalIncTax": "Total TTC",
+      "createdAt": "Date",
+      "actions": "Actions",
+      "viewDetails": "Voir les détails",
+      "updateStatus": "Mettre à jour le statut",
+      "search": "Rechercher des commandes...",
+      "filterByStatus": "Filtrer par statut",
+      "allStatuses": "Tous les statuts",
+      "totalOrders": "{count} commandes",
+      "loadingError": "Erreur de chargement",
+      "updateSuccess": "Commande mise à jour avec succès",
+      "guest": "Invité",
+      "noInvoice": "Aucune facture associée à cette commande",
+      "invoiceDownloadError": "Impossible de télécharger la facture",
+      "articleSingular": "article",
+      "articlePlural": "articles",
+      "ttc": "TTC",
+      "detail": {
+        "orderedItems": "Articles commandés",
+        "productFallback": "Produit",
+        "subtotalExclTax": "Sous-total HT",
+        "tax": "TVA (20%)",
+        "shipping": "Livraison",
+        "shippingFree": "Offerte",
+        "totalInclTax": "Total TTC",
+        "clientSection": "Client",
+        "shippingAddress": "Adresse de livraison",
+        "phone": "Tél",
+        "paymentSection": "Paiement",
+        "paidViaStripe": "✓ Payé via Stripe",
+        "awaitingPayment": "⏳ En attente de paiement",
+        "changeStatus": "Changer le statut",
+        "downloadInvoice": "Télécharger la facture",
+        "refundBtn": "Créer un avoir / Rembourser",
+        "statusHistory": "Historique des statuts"
+      }
+    },
+    "users": {
+      "title": "Gestion des utilisateurs",
+      "addUser": "Ajouter un utilisateur",
+      "name": "Nom",
+      "email": "Email",
+      "role": "Rôle",
+      "createdAt": "Date d'inscription",
+      "actions": "Actions",
+      "updateRole": "Mettre à jour le rôle",
+      "deleteUser": "Supprimer l'utilisateur",
+      "search": "Rechercher des utilisateurs...",
+      "filterByRole": "Filtrer par rôle",
+      "allRoles": "Tous les rôles",
+      "totalUsers": "{count} utilisateurs",
+      "loadingError": "Erreur de chargement",
+      "updateSuccess": "Utilisateur mis à jour avec succès",
+      "deleteSuccess": "Utilisateur supprimé avec succès",
+      "confirmDelete": "Supprimer cet utilisateur ?",
+      "updateError": "Impossible de modifier le rôle de cet utilisateur",
+      "noName": "Sans nom",
+      "youSuffix": "(vous)",
+      "exportSuccess": "Export CSV téléchargé",
+      "confirmDeleteDesc": "Vous êtes sur le point de supprimer le compte de",
+      "rgpdTitle": "Conformité RGPD :",
+      "rgpdDesc": "Cette action supprimera définitivement toutes les données personnelles de l'utilisateur (nom, email, adresses, historique de commandes anonymisé). Cette action est irréversible.",
+      "rgpdCheckbox": "Je confirme la suppression et l'effacement des données conformément au RGPD",
+      "roles": {
+        "USER": "Utilisateur",
+        "ADMIN": "Administrateur",
+        "MODERATOR": "Modérateur",
+        "MANAGER_PRODUCTS": "Gestionnaire Produits",
+        "MANAGER_ORDERS": "Gestionnaire Commandes",
+        "ACCOUNTANT": "Comptable"
+      }
+    },
+    "contacts": {
+      "title": "Messages de contact",
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "status": "Statut",
+      "createdAt": "Date",
+      "actions": "Actions",
+      "markAsRead": "Marquer comme lu",
+      "markAsUnread": "Marquer comme non lu",
+      "delete": "Supprimer",
+      "viewMessage": "Voir le message",
+      "search": "Rechercher des messages...",
+      "filterByStatus": "Filtrer par statut",
+      "allStatuses": "Tous les statuts",
+      "unreadOnly": "Non lus",
+      "readOnly": "Lus",
+      "totalMessages": "{count} messages",
+      "loadingError": "Erreur de chargement",
+      "updateSuccess": "Message mis à jour avec succès",
+      "deleteSuccess": "Message supprimé avec succès",
+      "confirmDelete": "Supprimer ce message ?"
+    },
+    "carousel": {
+      "title": "Carrousel de la page d'accueil",
+      "addSlide": "Ajouter une diapositive",
+      "editSlide": "Modifier la diapositive",
+      "title_field": "Titre",
+      "subtitle": "Sous-titre",
+      "ctaText": "Texte du bouton",
+      "ctaLink": "Lien du bouton",
+      "image": "URL de l'image",
+      "position": "Position",
+      "active": "Actif",
+      "actions": "Actions",
+      "totalSlides": "{count} diapositives",
+      "loadingError": "Erreur de chargement",
+      "createSuccess": "Diapositive créée avec succès",
+      "updateSuccess": "Diapositive mise à jour avec succès",
+      "deleteSuccess": "Diapositive supprimée avec succès",
+      "confirmDelete": "Supprimer cette diapositive ?",
+      "move": "Déplacer",
+      "inactive": "Inactif",
+      "fieldsRequired": "Le titre et l'image sont requis",
+      "maxSlidesError": "Maximum {count} diapositives",
+      "reorderSuccess": "Ordre mis à jour",
+      "titlePlaceholder": "Ex: Matériel de diagnostic",
+      "subtitlePlaceholder": "Ex: Découvrez nos nouveautés",
+      "link": "Lien (URL)"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "profile": "Profil",
+      "name": "Nom",
+      "email": "Email",
+      "password": "Mot de passe",
+      "changePassword": "Changer le mot de passe",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "updateProfile": "Mettre à jour le profil",
+      "updateSuccess": "Paramètres mis à jour avec succès",
+      "updateError": "Erreur de mise à jour"
+    },
+    "search": {
+      "title": "Recherche",
+      "placeholder": "Rechercher...",
+      "search": "Rechercher",
+      "searching": "Recherche en cours...",
+      "noResults": "Aucun résultat trouvé",
+      "askAssistant": "Posez une question à l'assistant Althea..."
+    },
+    "chat": {
+      "title": "Assistant IA",
+      "placeholder": "Tapez votre message...",
+      "send": "Envoyer",
+      "empty": "Posez une question à l'assistant Althea...",
+      "error": "Erreur lors de l'envoi du message",
+      "onlineStatus": "En ligne · Propulsé par IA",
+      "clearBtn": "Effacer",
+      "emptyHeading": "Comment puis-je vous aider ?",
+      "suggestion1": "Quels produits proposez-vous ?",
+      "suggestion2": "Comment suivre ma commande ?",
+      "suggestion3": "Quels sont les frais de livraison ?",
+      "suggestion4": "Comment retourner un produit ?",
+      "suggestion5": "Quels moyens de paiement acceptez-vous ?"
+    },
+    "myOrders": {
+      "title": "Mes commandes",
+      "orderNumber": "N° commande",
+      "items": "Articles",
+      "totalIncTax": "Total TTC",
+      "createdAt": "Date",
+      "viewDetails": "Voir les détails",
+      "noOrders": "Aucune commande pour le moment.",
+      "browseCatalog": "Parcourir le catalogue",
+      "loadingError": "Erreur de chargement",
+      "addedToCart": "Articles ajoutés au panier",
+      "searchPlaceholder": "Rechercher par produit, n° commande, date...",
+      "allYears": "Toutes les années",
+      "allStatuses": "Tous les statuts",
+      "orderCountSingular": "commande",
+      "orderCountPlural": "commandes",
+      "orderPrefix": "Commande #",
+      "cardPrefix": "Carte ••••",
+      "invoicePdf": "Facture PDF",
+      "renewTitle": "Ajouter tous les articles au panier",
+      "renewBtn": "Renouveler",
+      "status": {
+        "PENDING": "En attente",
+        "CONFIRMED": "Confirmée",
+        "PROCESSING": "En cours",
+        "SHIPPED": "Expédiée",
+        "DELIVERED": "Livrée",
+        "CANCELED": "Annulée",
+        "REFUNDED": "Remboursée"
+      }
+    }
+  },
+  "cart": {
+    "titlePrefix": "Mon",
+    "titleHighlight": "Panier",
+    "itemSingular": "article sélectionné",
+    "itemPlural": "articles sélectionnés",
+    "loginBanner": {
+      "title": "Connectez-vous pour sauvegarder votre panier et accéder à vos commandes",
+      "desc": "Votre panier sera conservé après la connexion",
+      "login": "Se connecter",
+      "register": "Créer un compte"
+    },
+    "empty": {
+      "title": "Votre panier est vide",
+      "desc": "Découvrez notre catalogue et ajoutez des produits.",
+      "cta": "Voir les produits"
+    },
+    "item": {
+      "ht": "HT",
+      "decreaseQty": "Diminuer la quantité de",
+      "currentQty": "Quantité :",
+      "increaseQty": "Augmenter la quantité de",
+      "lowStockPrefix": "Plus que",
+      "lowStockSuffix": "en stock",
+      "remove": "Supprimer",
+      "removeSuffix": "du panier"
+    },
+    "summary": {
+      "title": "Récapitulatif",
+      "subtotal": "Sous-total HT",
+      "savings": "Économies",
+      "tax": "TVA (20%)",
+      "shipping": "Livraison",
+      "quote": "Sur devis",
+      "free": "Gratuite",
+      "freeShippingFrom": "Livraison gratuite dès",
+      "ht": "HT",
+      "total": "Total TTC",
+      "unavailableWarning": "Certains produits sont indisponibles",
+      "unavailableHint": "Retirez ou modifiez les produits en rupture de stock.",
+      "checking": "Vérification...",
+      "unavailableBtn": "Produits indisponibles",
+      "checkout": "Passer commande",
+      "continue": "Continuer mes achats"
+    },
+    "shippingStandard": "Livraison standard"
+  },
+  "checkout": {
+    "steps": {
+      "login": "Connexion",
+      "address": "Adresse",
+      "recap": "Récapitulatif",
+      "payment": "Paiement"
+    },
+    "emptyCart": {
+      "title": "Votre panier est vide",
+      "desc": "Ajoutez des produits avant de passer commande.",
+      "cta": "Voir le catalogue"
+    },
+    "pageTitle": "Passer commande",
+    "step1": {
+      "title": "Connectez-vous pour continuer",
+      "desc": "Vous devez être connecté pour passer commande et suivre vos achats.",
+      "login": "Se connecter",
+      "register": "Créer un compte"
+    },
+    "step2": {
+      "title": "Adresse de livraison",
+      "addNew": "+ Ajouter une nouvelle adresse",
+      "useExisting": "← Utiliser une adresse existante",
+      "phone": "Tél:",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "street": "Adresse",
+      "postalCode": "Code postal",
+      "city": "Ville",
+      "phone2": "Téléphone",
+      "label": "Libellé",
+      "labelPlaceholder": "Libellé (ex: Cabinet, Domicile)",
+      "back": "Retour au panier",
+      "continue": "Continuer"
+    },
+    "step3": {
+      "products": "Produits",
+      "ht": "HT",
+      "deliveryAddress": "Adresse de livraison",
+      "edit": "Modifier",
+      "phone": "Tél :",
+      "billingAddress": "Adresse de facturation",
+      "billingSame": "Identique à l'adresse de livraison",
+      "addBilling": "+ Nouvelle adresse de facturation",
+      "useExisting": "← Utiliser une adresse existante",
+      "firstNamePlaceholder": "Prénom *",
+      "lastNamePlaceholder": "Nom *",
+      "streetPlaceholder": "Adresse *",
+      "postalCodePlaceholder": "Code postal *",
+      "cityPlaceholder": "Ville *",
+      "paymentSection": "Paiement",
+      "paymentDesc": "Vous serez redirigé vers un formulaire de paiement sécurisé Stripe à l'étape suivante.",
+      "subtotal": "Sous-total HT",
+      "tax": "TVA (20%)",
+      "shipping": "Livraison",
+      "quote": "Sur devis",
+      "free": "Gratuite",
+      "total": "Total TTC",
+      "customShippingMsg": "Livraison spéciale requise. Veuillez nous contacter pour un devis.",
+      "back": "Retour",
+      "loading": "Chargement...",
+      "confirmAndPay": "Confirmer et payer"
+    },
+    "step4": {
+      "title": "Paiement sécurisé"
+    },
+    "sidebar": {
+      "title": "Récapitulatif",
+      "qty": "Qté:",
+      "subtotal": "Sous-total HT",
+      "tax": "TVA (20%)",
+      "shipping": "Livraison",
+      "quote": "Sur devis",
+      "free": "Gratuite",
+      "total": "Total TTC"
+    },
+    "payment": {
+      "secureInfo": "Paiement sécurisé par Stripe. Vos informations bancaires sont protégées.",
+      "contactForQuote": "Veuillez nous contacter pour un devis de livraison.",
+      "back": "Retour",
+      "processing": "Traitement...",
+      "pay": "Payer",
+      "error": "Une erreur est survenue lors du paiement."
+    },
+    "toasts": {
+      "addressError": "Erreur lors de l'ajout de l'adresse",
+      "billingRequired": "Veuillez remplir l'adresse de facturation",
+      "stockUnavailable": "Certains produits ne sont plus disponibles :",
+      "stockInsufficient": "Stock insuffisant",
+      "orderError": "Erreur lors de la création de la commande"
+    },
+    "shippingStandard": "Livraison standard"
+  },
+  "settings": {
+    "pageTitle": "Paramètres du compte",
+    "pageSubtitle": "Gérez vos informations personnelles et la sécurité de votre compte.",
+    "loading": "Chargement du profil...",
+    "cancelBtn": "Annuler",
+    "emailBanner": {
+      "title": "Votre email n'est pas encore vérifié",
+      "body": "Vérifiez votre boîte mail et cliquez sur le lien de confirmation pour activer toutes les fonctionnalités."
+    },
+    "profile": {
+      "title": "Informations personnelles",
+      "memberSince": "Membre depuis le",
+      "name": "Nom",
+      "email": "Email",
+      "savingBtn": "Enregistrement...",
+      "saveBtn": "Enregistrer"
+    },
+    "password": {
+      "title": "Changer le mot de passe",
+      "current": "Mot de passe actuel",
+      "new": "Nouveau mot de passe",
+      "newPlaceholder": "Minimum 8 caractères",
+      "confirm": "Confirmer le nouveau mot de passe",
+      "savingBtn": "Modification...",
+      "saveBtn": "Modifier le mot de passe"
+    },
+    "twofa": {
+      "title": "Authentification à deux facteurs (2FA)",
+      "enabled": "Le 2FA est activé sur votre compte.",
+      "disabled": "Renforcez la sécurité de votre compte avec un code TOTP.",
+      "badge": "Activé",
+      "setupBtn": "Configurer le 2FA",
+      "setupLoading": "Configuration...",
+      "qrStep1": "1. Scannez ce QR code avec votre application d'authentification (Google Authenticator, Authy, etc.)",
+      "qrManual": "Ou entrez ce code manuellement :",
+      "qrStep2": "2. Entrez le code à 6 chiffres affiché dans votre application",
+      "verifyLoading": "Vérification...",
+      "verifyBtn": "Activer le 2FA",
+      "disableBtn": "Désactiver le 2FA",
+      "disablePrompt": "Entrez un code de votre application d'authentification pour confirmer la désactivation.",
+      "disableLoading": "Désactivation...",
+      "disableConfirmBtn": "Confirmer la désactivation"
+    },
+    "deactivate": {
+      "title": "Désactiver le compte",
+      "subtitle": "Votre compte sera désactivé mais vos données seront conservées.",
+      "btn": "Désactiver mon compte",
+      "confirmText": "Votre compte sera désactivé et vous ne pourrez plus vous connecter. Contactez le support pour le réactiver.",
+      "loading": "Désactivation...",
+      "confirmBtn": "Confirmer la désactivation"
+    },
+    "delete": {
+      "title": "Supprimer le compte",
+      "subtitle": "Cette action est irréversible.",
+      "btn": "Supprimer mon compte",
+      "confirmPromptPrefix": "Tapez",
+      "confirmPromptSuffix": "pour confirmer la suppression définitive de votre compte.",
+      "confirmWord": "SUPPRIMER",
+      "srOnly": "Tapez SUPPRIMER pour confirmer",
+      "loading": "Suppression...",
+      "confirmBtn": "Confirmer la suppression"
+    },
+    "toasts": {
+      "emailUpdated": "Email mis à jour avec succès",
+      "emailConfirmInvalid": "Lien de confirmation invalide",
+      "profileLoadError": "Impossible de charger le profil",
+      "pendingEmailChange": "Un email de confirmation a été envoyé à votre nouvelle adresse.",
+      "profileUpdated": "Profil mis à jour",
+      "profileUpdateError": "Erreur lors de la mise à jour",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères",
+      "passwordChanged": "Mot de passe modifié",
+      "passwordChangeError": "Erreur lors du changement de mot de passe",
+      "deactivated": "Compte désactivé",
+      "deactivateError": "Erreur lors de la désactivation",
+      "deleted": "Compte supprimé",
+      "deleteError": "Erreur lors de la suppression",
+      "twoFASetupError": "Erreur lors de la configuration 2FA",
+      "twoFAEnabled": "Authentification à deux facteurs activée !",
+      "twoFACodeInvalid": "Code invalide",
+      "twoFADisabled": "Authentification à deux facteurs désactivée"
+    }
+  },
+  "adminCategories": {
+    "pageTitle": "Catégories",
+    "countSingular": "catégorie",
+    "countPlural": "catégories",
+    "newBtn": "+ Nouvelle catégorie",
+    "cancelBtn": "Annuler",
+    "table": {
+      "order": "Ordre",
+      "image": "Image",
+      "name": "Nom",
+      "parent": "Parente",
+      "products": "Produits",
+      "home": "Accueil",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "row": {
+      "dragTitle": "Glisser pour réordonner",
+      "root": "Racine",
+      "featuredTitle": "Retirer de l'accueil",
+      "notFeaturedTitle": "Mettre en avant sur l'accueil",
+      "featuredBtn": "★ Accueil",
+      "active": "Active",
+      "inactive": "Inactive",
+      "editBtn": "Modifier"
+    },
+    "form": {
+      "titleEdit": "Modifier :",
+      "titleNew": "Nouvelle catégorie",
+      "name": "Nom *",
+      "namePlaceholder": "Diagnostic médical",
+      "slug": "Slug SEO",
+      "slugPlaceholder": "diagnostic-medical (auto-généré si vide)",
+      "parentCategory": "Catégorie parente",
+      "parentNone": "— Aucune (catégorie racine)",
+      "position": "Position (ordre d'affichage)",
+      "imageUrl": "Image (URL)",
+      "activeLabel": "Active (visible sur le site)",
+      "featuredLabel": "★ Mise en avant (page d'accueil)",
+      "description": "Description",
+      "descriptionPlaceholder": "Description courte de la catégorie",
+      "translationsTitle": "Traductions",
+      "translatedName": "Nom traduit",
+      "translatedDescription": "Description traduite",
+      "saveBtn": "Enregistrer",
+      "createBtn": "Créer"
+    },
+    "empty": "Aucune catégorie. Créez-en une pour commencer.",
+    "deleteConfirm": "Supprimer cette catégorie ? Les produits associés ne seront pas supprimés.",
+    "toasts": {
+      "loadError": "Erreur lors du chargement des catégories",
+      "translationsLoadError": "Impossible de charger les traductions de la catégorie",
+      "nameRequired": "Le nom est requis",
+      "updated": "Catégorie mise à jour",
+      "created": "Catégorie créée",
+      "error": "Erreur",
+      "deleted": "Catégorie supprimée",
+      "deactivated": "Catégorie désactivée",
+      "activated": "Catégorie activée",
+      "unfeatured": "Retirée de la mise en avant",
+      "featured": "Mise en avant sur l'accueil",
+      "reordered": "Ordre mis à jour"
+    }
+  },
+  "addresses": {
+    "pageTitle": "Carnet d'adresses",
+    "addBtn": "Ajouter une adresse",
+    "emptyText": "Aucune adresse enregistrée.",
+    "defaultBadge": "Par défaut",
+    "phone": "Tél :",
+    "setDefaultBtn": "Par défaut",
+    "editBtn": "Modifier",
+    "deleteBtn": "Supprimer",
+    "deleteConfirm": "Supprimer cette adresse ?",
+    "form": {
+      "titleEdit": "Modifier l'adresse",
+      "titleNew": "Nouvelle adresse",
+      "label": "Libellé (optionnel)",
+      "labelPlaceholder": "ex : Cabinet, Domicile",
+      "firstName": "Prénom *",
+      "lastName": "Nom *",
+      "street": "Adresse *",
+      "postalCode": "Code postal *",
+      "city": "Ville *",
+      "country": "Pays",
+      "phone": "Téléphone",
+      "isDefault": "Définir comme adresse par défaut",
+      "cancelBtn": "Annuler",
+      "savingBtn": "Enregistrement...",
+      "saveBtn": "Enregistrer"
+    },
+    "toasts": {
+      "requiredFields": "Veuillez remplir les champs obligatoires",
+      "updated": "Adresse mise à jour",
+      "added": "Adresse ajoutée",
+      "saveError": "Erreur lors de la sauvegarde",
+      "deleted": "Adresse supprimée",
+      "deleteError": "Erreur lors de la suppression",
+      "defaultUpdated": "Adresse par défaut mise à jour",
+      "defaultError": "Erreur"
+    }
+  },
+  "confirmation": {
+    "notFound": "Commande introuvable",
+    "banner": {
+      "title": "Commande confirmée !",
+      "orderPrefix": "Commande",
+      "status": {
+        "PENDING": "En attente",
+        "CONFIRMED": "Confirmée",
+        "PROCESSING": "En cours",
+        "SHIPPED": "Expédiée",
+        "DELIVERED": "Livrée"
+      }
+    },
+    "products": {
+      "title": "Produits commandés",
+      "unitHT": "HT x"
+    },
+    "totals": {
+      "subtotal": "Sous-total HT",
+      "tax": "TVA (20%)",
+      "shipping": "Livraison",
+      "free": "Gratuite",
+      "total": "Total TTC"
+    },
+    "address": {
+      "title": "Adresse de livraison",
+      "phone": "Tél :"
+    },
+    "payment": {
+      "title": "Paiement",
+      "stripe": "Paiement sécurisé par Stripe",
+      "invoicePrefix": "Facture N°"
+    },
+    "actions": {
+      "myOrders": "Voir mes commandes",
+      "continueShopping": "Continuer mes achats",
+      "downloadInvoice": "Télécharger la facture"
+    }
+  },
+  "adminInvoices": {
+    "pageTitle": "Factures",
+    "countSingular": "facture",
+    "countPlural": "factures",
+    "emptyText": "Aucune facture trouvée.",
+    "downloadTitle": "Télécharger PDF",
+    "emailTitle": "Envoyer par email",
+    "cancelTitle": "Annuler et créer un avoir",
+    "cancelReasonDefault": "Annulation de la facture",
+    "filter": {
+      "all": "Toutes",
+      "paid": "Payées",
+      "pending": "En attente",
+      "canceled": "Annulées"
+    },
+    "table": {
+      "invoiceNumber": "N° Facture",
+      "date": "Date",
+      "client": "Client",
+      "order": "Commande",
+      "amountTTC": "Montant TTC",
+      "status": "Statut",
+      "creditNote": "Avoir",
+      "actions": "Actions"
+    },
+    "status": {
+      "PAID": "Payée",
+      "PENDING": "En attente",
+      "CANCELED": "Annulée"
+    },
+    "pagination": {
+      "page": "Page",
+      "prev": "← Précédent",
+      "next": "Suivant →"
+    },
+    "modal": {
+      "title": "Annuler la facture",
+      "descPrefix": "La facture",
+      "descSuffix": "sera annulée et un avoir sera créé automatiquement.",
+      "reasonLabel": "Motif de l'annulation",
+      "reasonPlaceholder": "Ex : Erreur de commande, remboursement client...",
+      "cancelBtn": "Annuler",
+      "confirmBtn": "Confirmer l'annulation"
+    },
+    "toasts": {
+      "loadError": "Erreur lors du chargement des factures.",
+      "emailSentPrefix": "Facture",
+      "emailSentSuffix": "envoyée par email.",
+      "emailError": "Erreur lors de l'envoi de l'email.",
+      "cancelledPrefix": "Facture",
+      "cancelledSuffix": "annulée. Un avoir a été créé automatiquement.",
+      "cancelError": "Erreur lors de l'annulation."
+    }
+  },
+  "adminShipping": {
+    "pageTitle": "Règles de livraison",
+    "countSingular": "règle configurée",
+    "countPlural": "règles configurées",
+    "addBtn": "Nouvelle règle",
+    "hint": "Les règles sont évaluées par priorité (plus basse = prioritaire). La première règle correspondante est appliquée.",
+    "htSuffix": "HT",
+    "emptyText": "Aucune règle configurée. Ajoutez-en une pour commencer.",
+    "editTitle": "Modifier",
+    "deleteTitle": "Supprimer",
+    "deleteConfirm": "Supprimer cette règle ?",
+    "table": {
+      "priority": "Priorité",
+      "label": "Libellé",
+      "type": "Type",
+      "amount": "Montant",
+      "minSubtotal": "Seuil min",
+      "maxSubtotal": "Seuil max",
+      "active": "Actif",
+      "actions": "Actions"
+    },
+    "types": {
+      "FLAT": "Forfait fixe",
+      "FREE_ABOVE": "Gratuit au-dessus de",
+      "CUSTOM": "Sur devis (message)"
+    },
+    "form": {
+      "titleEdit": "Modifier la règle",
+      "titleNew": "Nouvelle règle",
+      "labelField": "Libellé",
+      "labelPlaceholder": "Ex : Livraison standard",
+      "typeField": "Type",
+      "typeFlatOption": "Forfait fixe",
+      "typeFreeAboveOption": "Gratuit au-dessus d'un seuil",
+      "typeCustomOption": "Sur devis (message personnalisé)",
+      "amountField": "Montant (en centimes)",
+      "minSubtotalField": "Seuil min (€ HT)",
+      "maxSubtotalField": "Seuil max (€ HT)",
+      "optional": "Optionnel",
+      "messageField": "Message affiché",
+      "messagePlaceholder": "Ex : Nous contacter pour un devis de livraison",
+      "priorityField": "Priorité",
+      "priorityHint": "Plus le nombre est bas, plus la règle est prioritaire.",
+      "activeLabel": "Règle active",
+      "cancelBtn": "Annuler",
+      "saveBtn": "Enregistrer",
+      "createBtn": "Créer"
+    },
+    "toasts": {
+      "loadError": "Erreur lors du chargement des règles",
+      "labelRequired": "Le libellé est requis",
+      "updated": "Règle modifiée",
+      "created": "Règle créée",
+      "deleted": "Règle supprimée",
+      "error": "Erreur"
+    }
+  },
+  "importModal": {
+    "title": "Importer des produits",
+    "upload": {
+      "dragText": "Glissez un fichier CSV ou Excel ici",
+      "clickText": "ou cliquez pour parcourir",
+      "chooseBtn": "Choisir un fichier",
+      "formatTitle": "Format attendu",
+      "formatDesc1": "Colonnes : name (requis), price (requis, en euros), stock, sku, category (nom), description, images (URLs séparées par ;)",
+      "formatDesc2": "La première ligne doit contenir les en-têtes. Les noms de colonnes acceptent aussi les variantes françaises : nom, prix, quantite, ref, categorie."
+    },
+    "loading": {
+      "analyzing": "Analyse du fichier en cours...",
+      "importing": "Import en cours..."
+    },
+    "preview": {
+      "validSingular": "valide",
+      "validPlural": "valides",
+      "errorSingular": "erreur",
+      "errorPlural": "erreurs",
+      "table": {
+        "line": "Ligne",
+        "name": "Nom",
+        "price": "Prix",
+        "stock": "Stock",
+        "sku": "SKU",
+        "category": "Catégorie",
+        "status": "Statut"
+      },
+      "truncatedPrefix": "Affichage des 100 premières lignes sur",
+      "truncatedSuffix": "au total."
+    },
+    "result": {
+      "title": "Import terminé",
+      "createdSingular": "Créé",
+      "createdPlural": "Créés",
+      "failedSingular": "Échec",
+      "failedPlural": "Échecs",
+      "linePrefix": "Ligne"
+    },
+    "footer": {
+      "cancelBtn": "Annuler",
+      "changeFileBtn": "Changer de fichier",
+      "importBtnPrefix": "Importer",
+      "importBtnProductSingular": "produit",
+      "importBtnProductPlural": "produits",
+      "closeBtn": "Fermer"
+    },
+    "toasts": {
+      "formatError": "Format non supporté. Utilisez un fichier CSV ou Excel (.xlsx).",
+      "analyzeError": "Erreur lors de l'analyse du fichier",
+      "noValidRows": "Aucune ligne valide à importer",
+      "importedSingular": "produit importé",
+      "importedPlural": "produits importés",
+      "importError": "Erreur lors de l'import"
+    }
+  },
+  "adminCreditNotes": {
+    "pageTitle": "Avoirs",
+    "countSingular": "avoir",
+    "countPlural": "avoirs",
+    "emptyText": "Aucun avoir trouvé.",
+    "downloadTitle": "Télécharger PDF",
+    "emailTitle": "Envoyer par email",
+    "table": {
+      "creditNoteNumber": "N° Avoir",
+      "linkedInvoice": "Facture liée",
+      "date": "Date",
+      "client": "Client",
+      "amount": "Montant",
+      "reason": "Motif",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "page": "Page",
+      "prev": "← Précédent",
+      "next": "Suivant →"
+    },
+    "toasts": {
+      "loadError": "Erreur lors du chargement des avoirs.",
+      "emailSentPrefix": "Avoir",
+      "emailSentSuffix": "envoyé par email.",
+      "emailError": "Erreur lors de l'envoi de l'email."
+    }
+  },
+  "adminConversations": {
+    "pageTitle": "Conversations chatbot",
+    "countSingular": "conversation enregistrée",
+    "countPlural": "conversations enregistrées",
+    "anonymous": "Anonyme",
+    "messageSingular": "message",
+    "messagePlural": "messages",
+    "emptyConversations": "Aucune conversation enregistrée",
+    "emptyMessages": "Aucun message",
+    "pagination": {
+      "prev": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "adminSiteSettings": {
+    "pageTitle": "Contenu du site",
+    "pageDesc": "Modifiez les textes affichés sur la page d'accueil et autres sections publiques.",
+    "groups": {
+      "tagline": "Accroche sous le carrousel",
+      "general": "Général"
+    },
+    "saveBtn": "Enregistrer les modifications",
+    "savingBtn": "Enregistrement…",
+    "cancelBtn": "Annuler",
+    "toasts": {
+      "loadError": "Erreur lors du chargement des paramètres",
+      "saved": "Contenus mis à jour",
+      "saveError": "Erreur lors de la sauvegarde"
+    }
+  }
+}

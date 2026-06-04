@@ -1,0 +1,114 @@
+# AI Tools
+.claude/
+.cursor/
+.cursorignore
+.cursorindexingignore
+.windsurf/
+.windsurfrules
+.aider*
+.aider.tags.cache.v*/
+.copilot/
+.github/copilot-instructions.md
+.codeium/
+.continue/
+.tabnine/
+.sourcegraph/
+.cody/
+.roomodes
+.roo/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+.next/
+out/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment — toutes les variantes
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+.env.test
+.envrc
+
+# Secrets et certificats
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Turbo
+.turbo/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+
+# Docker
+docker-data/
+docker-compose.override.yml
+
+# Prisma (SQLite local si utilisé pour dev)
+*.db
+*.db-journal
+
+# Cache
+.cache/
+
+# Yarn Berry (si migration future)
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Docs internes / livrables certification (non publics)
+docs/DCT*.md
+docs/ANALYSE-DYNAMIQUE*.md
+docs/TESTS.md
+
+# Fichiers de travail divers
+claude.md
+deployment-vercel-render.md
+file tree.md
+manques-cdc.md
+optimisation-tokens.md
+token-optimization.md
+ral_ral_.txt
+projet-etudes-modifie-17nov.txt
+JIRA-STRUCTURE.md
+ANALYSE-PROJET.md
+DEPLOYMENT.md
+I18N.md
+INSTALLATION-PC.md
+cahier-des-charges.txt
+ral-qa.txt

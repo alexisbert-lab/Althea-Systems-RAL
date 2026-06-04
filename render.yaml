@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: althea-backend
+    runtime: node
+    plan: free
+    region: frankfurt
+    rootDir: .
+    buildCommand: npm ci && npx prisma generate --schema=apps/backend/prisma/schema.prisma && npm run build --workspace=apps/backend
+    startCommand: cd apps/backend && npm run render:start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: MEILISEARCH_HOST
+        sync: false
+      - key: MEILISEARCH_API_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_PROVIDER
+        value: resend
+      - key: EMAIL_FROM
+        value: noreply@althea-system.com
+      - key: FRONTEND_URL
+        sync: false
+      - key: MYMEMORY_EMAIL
+        value: alexis.bert1412@gmail.com

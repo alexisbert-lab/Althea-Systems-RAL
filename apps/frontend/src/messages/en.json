@@ -1,0 +1,1329 @@
+{
+  "home": {
+    "subtitle": "Intelligent platform for management, search and AI-powered automation.",
+    "cta": {
+      "dashboard": "Go to Dashboard",
+      "login": "Sign In"
+    },
+    "features": {
+      "search": {
+        "title": "Advanced Search",
+        "description": "Instantly find what you're looking for with Meilisearch and Algolia."
+      },
+      "ai": {
+        "title": "AI Assistant",
+        "description": "An intelligent chatbot powered by OpenAI and Anthropic Claude to assist you."
+      },
+      "payments": {
+        "title": "Secure Payments",
+        "description": "Manage your subscriptions and payments securely with Stripe."
+      }
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "noResults": "No results found"
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Create an account",
+    "logout": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginLoading": "Signing in...",
+    "noAccount": "No account?",
+    "alreadyAccount": "Already have an account?",
+    "confirmPassword": "Confirm password",
+    "newPassword": "New password",
+    "confirm": "Confirm",
+    "passwordPlaceholder": "Min. 8 characters",
+    "emailPlaceholder": "your@email.com",
+    "passwordStrength": {
+      "label": "Strength:",
+      "weak": "Weak",
+      "medium": "Medium",
+      "good": "Good",
+      "strong": "Strong"
+    },
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "passwordMatch": "Passwords match ✓",
+    "creating": "Creating...",
+    "createAccount": "Create account",
+    "accountCreated": "Account created successfully!",
+    "emailConfirmationSent": "A confirmation email has been sent to",
+    "clickLinkToActivate": "Click the link in the email to activate your account and sign in automatically.",
+    "forgotPasswordTitle": "Forgot password",
+    "forgotPasswordDesc": "Enter your email to receive a reset link.",
+    "sending": "Sending...",
+    "sendLink": "Send link",
+    "backToLogin": "Back to sign in",
+    "emailSentConfirm": "If an account exists with this email, you will receive a reset link.",
+    "newPasswordTitle": "New password",
+    "newPasswordDesc": "Choose a new password.",
+    "resetting": "Resetting...",
+    "resetPassword": "Reset",
+    "resetSuccessDesc": "Your password has been reset successfully.",
+    "invalidLink": "Invalid link",
+    "invalidLinkDesc": "This reset link is invalid.",
+    "requestNewLink": "Request a new link",
+    "verifying": "Verifying...",
+    "verifyingDesc": "Validating your email address.",
+    "emailVerified": "Email verified!",
+    "redirectingSoon": "Redirecting automatically in a few seconds...",
+    "accessSite": "Access site",
+    "verifyFailed": "Verification failed",
+    "invalidVerifyLink": "Invalid verification link.",
+    "expiredVerifyLink": "Invalid or expired verification link.",
+    "twoFA": {
+      "title": "2FA Verification",
+      "description": "Enter the 6-digit code from your authenticator app.",
+      "verifying": "Verifying...",
+      "verify": "Verify",
+      "back": "Back to sign in",
+      "prompt": "Enter your two-factor authentication code."
+    },
+    "toasts": {
+      "loginSuccess": "Signed in successfully!",
+      "loginError": "Sign-in error",
+      "twoFAInvalid": "Invalid 2FA code",
+      "registerError": "Error creating account",
+      "sendLinkSuccess": "Email sent!",
+      "sendLinkError": "Error sending email",
+      "resetSuccess": "Password reset!",
+      "resetError": "Invalid or expired link",
+      "passwordTooShort": "Password must be at least 8 characters.",
+      "passwordMismatch": "Passwords do not match."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to Althea System"
+  },
+  "chat": {
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "empty": "Ask the Althea assistant a question...",
+    "title": "Althea Assistant",
+    "dialogLabel": "Althea AI Assistant",
+    "online": "Online",
+    "openLabel": "Open AI assistant",
+    "closeLabel": "Close chat",
+    "close": "Close",
+    "clearConversation": "Clear conversation",
+    "messagesLabel": "Chat messages",
+    "typingLabel": "Assistant is typing",
+    "typingSr": "Assistant is writing…",
+    "welcomeTitle": "How can I help you?",
+    "welcomeSubtitle": "Ask a question or choose below",
+    "messagePlaceholder": "Your message…",
+    "speakToAdvisor": "Speak to a human advisor",
+    "suggestion1": "What products do you offer?",
+    "suggestion2": "How can I track my order?",
+    "suggestion3": "What are your delivery times?",
+    "suggestion4": "How can I contact you?",
+    "escalation": {
+      "title": "Speak to an advisor",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Describe your request (optional)",
+      "sending": "Sending…",
+      "submit": "Send",
+      "cancel": "Cancel",
+      "sentTitle": "Message sent ✓",
+      "sentMessage": "Our team will contact you within 24-48h.",
+      "backToChat": "Back to chat"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Catalog",
+    "contact": "Contact",
+    "myAccount": "My Account",
+    "backoffice": "Backoffice",
+    "login": "Sign In",
+    "register": "Sign Up",
+    "logout": "Sign Out",
+    "searchAriaLabel": "Product search",
+    "searchLabel": "Search for a product",
+    "searchPlaceholder": "Search for a product...",
+    "searchSubmit": "Run search",
+    "seeAllResultsFor": "See all results for \u00ab {query} \u00bb",
+    "cartAria": "Cart",
+    "cartAriaWithCount": "Cart, {count} item(s)",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mobileMenu": "Mobile menu",
+    "suggestionsAriaLabel": "Search suggestions",
+    "productSingular": "product",
+    "productPlural": "products",
+    "catalogLabel": "Catalog",
+    "viewAll": "View all",
+    "quickAccess": "Quick access",
+    "categories": "Categories",
+    "categoriesLoading": "Loading categories…",
+    "allProducts": "All products",
+    "filterNew": "New arrivals",
+    "filterAvailable": "In stock",
+    "filterSale": "On sale",
+    "filterFeatured": "Featured"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Cutting-edge medical equipment for your practice",
+      "subtitle": "Diagnostics, surgical instruments, furniture and consumables — A professional selection delivered to you.",
+      "cta": "View catalog",
+      "discover": "Discover"
+    },
+    "carouselAria": "Promotions and news",
+    "carouselTabsAria": "Carousel slides",
+    "tagline": {
+      "title": "Althea System — Your partner in medical equipment",
+      "description": "Supplier of cutting-edge medical equipment for medical practices since 2024. We select the best brands to offer you quality, reliability and exceptional service.",
+      "products": "Referenced products",
+      "categories": "Categories",
+      "shipping": "Free shipping",
+      "support": "Responsive support"
+    },
+    "categoriesTitle": "Our categories",
+    "viewAllCategories": "View all categories ->",
+    "productsCount": "products",
+    "featuredTitle": "Top Products of the moment",
+    "outOfStock": "Out of stock",
+    "limitedStock": "Limited stock",
+    "addToCart": "Add to cart",
+    "inStock": "In stock",
+    "unavailable": "Unavailable",
+    "viewFullCatalog": "View full catalog",
+    "learnMore": "Learn more",
+    "reassurance": {
+      "fastDelivery": {
+        "title": "Fast delivery",
+        "description": "Free from 100 EUR excl. tax. Ships within 24 to 48 hours."
+      },
+      "certifiedQuality": {
+        "title": "Certified quality",
+        "description": "Equipment compliant with CE standards and medical marking."
+      },
+      "responsiveSupport": {
+        "title": "Responsive support",
+        "description": "Our team answers within 48 hours by email or phone."
+      },
+      "securePayment": {
+        "title": "Secure payment",
+        "description": "Transactions secured by Stripe. Card, bank transfer, direct debit."
+      }
+    }
+  },
+  "productsPage": {
+    "title": "Our Catalog",
+    "results": "results",
+    "found": "found",
+    "filters": "Filters",
+    "sort": {
+      "default": "Default sorting",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "newest": "Newest first",
+      "availability": "Availability"
+    },
+    "search": "Search...",
+    "searchLabel": "Search",
+    "category": "Category",
+    "allCategories": "All categories",
+    "price": "Price",
+    "priceExclTax": "excl. tax",
+    "min": "Min",
+    "max": "Max",
+    "inStockOnly": "In stock only",
+    "inStock": "In stock",
+    "reset": "Reset filters",
+    "noResults": "No products found",
+    "noResultsDesc": "Try adjusting your filters or search",
+    "clearAllFilters": "Clear all filters",
+    "viewDetails": "View details",
+    "featured": "Featured",
+    "page": "Page",
+    "of": "of",
+    "sortBy": "Sort by",
+    "openFilters": "Open filters",
+    "closeFilters": "Close filters",
+    "filtersAria": "Product filters",
+    "priceMin": "Minimum price",
+    "priceMax": "Maximum price",
+    "loading": "Loading products...",
+    "addToCartAria": "Add {name} to cart",
+    "paginationAria": "Product pagination",
+    "gridView": "Grid view",
+    "listView": "List view",
+    "filterFeatured": "Featured",
+    "filterOnSale": "On sale",
+    "filterNewest": "Newest first",
+    "specs": "Specifications",
+    "addToCartShort": "+ Cart",
+    "outOfStock": "Out of stock"
+  },
+  "productDetailPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "products": "Products"
+    },
+    "imageAlt": "{name} - view {index}",
+    "carousel": {
+      "prevImage": "Previous image",
+      "nextImage": "Next image"
+    },
+    "priceExclTax": "excl. tax",
+    "description": "Description",
+    "technicalSpecs": "Technical specifications",
+    "addToCart": "Add to cart",
+    "buyNow": "Buy now",
+    "similarProducts": "Similar products",
+    "addedToCart": "{name} added to cart!",
+    "stock": {
+      "inStock": "In stock",
+      "outOfStock": "Out of stock",
+      "shortOutOfStock": "Out",
+      "limited": "Limited stock ({count} left)"
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Have a question? Need help? Our team is here for you.",
+    "subtitleShort": "A question, a suggestion? Feel free to write to us.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "sendMessage": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "successTitle": "Message sent!",
+    "successMessage": "We will respond to you as soon as possible.",
+    "sendAnother": "Send another message",
+    "error": "Error sending message",
+    "badge": "Contact",
+    "availability": "Available Monday to Friday, 9am–6pm.",
+    "responseTimeLabel": "Response time",
+    "responseTimeValue": "Usually within 24 business hours",
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "dashboardPage": {
+    "welcome": "Welcome",
+    "adminDashboard": "Administrator dashboard",
+    "userDashboard": "Your personal space",
+    "kpi": {
+      "revenueToday": "Revenue today",
+      "week": "Week",
+      "month": "Month",
+      "orders": "Orders",
+      "today": "Today",
+      "pending": "Pending",
+      "stockAlerts": "Stock alerts",
+      "onXActiveProducts": "Out of {count} active products",
+      "unreadMessages": "Unread messages",
+      "registeredUsers": "{count} registered users"
+    },
+    "salesByCategory": {
+      "title": "Sales by category",
+      "noSales": "No sales for this period.",
+      "last7days": "Last 7 days",
+      "last14days": "Last 14 days",
+      "last5weeks": "Last 5 weeks",
+      "lastMonth": "Last month",
+      "last3months": "Last 3 months",
+      "total": "Total",
+      "histogramSubtitle": "Multi-layer histogram — total sales by category"
+    },
+    "stockAlertsWidget": {
+      "title": "Stock alerts",
+      "viewAll": "View all",
+      "outOfStock": "Out of stock",
+      "remaining": "remaining",
+      "noAlerts": "No stock alerts."
+    },
+    "quickActions": {
+      "addProduct": "Add a product",
+      "newMedicalEquipment": "New medical equipment",
+      "newOrder": "New order",
+      "createOrderManually": "Create an order manually",
+      "manageOrders": "Manage orders",
+      "pendingOrders": "{count} pending",
+      "messages": "Messages",
+      "unread": "{count} unread",
+      "users": "Users",
+      "registered": "{count} registered",
+      "browseCatalog": "Browse catalog",
+      "cuttingEdgeMedical": "Cutting-edge medical equipment",
+      "myOrders": "My orders",
+      "trackOrders": "Track your orders",
+      "settings": "Settings",
+      "editProfile": "Edit your profile"
+    },
+    "recentOrdersTable": {
+      "title": "Recent orders",
+      "viewAll": "View all",
+      "orderNumber": "Order #",
+      "customer": "Customer",
+      "status": "Status",
+      "items": "Items",
+      "totalIncTax": "Total inc. tax",
+      "guest": "Guest",
+      "noOrders": "No orders yet."
+    },
+    "topProducts": {
+      "title": "Top products (30d)",
+      "sold": "sold",
+      "revenue": "revenue",
+      "noSales": "No sales for this period."
+    },
+    "myOrdersWidget": {
+      "title": "My recent orders",
+      "noOrders": "No orders yet.",
+      "browseCatalog": "Browse catalog"
+    },
+    "orderStatus": {
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "PROCESSING": "Processing",
+      "SHIPPED": "Shipped",
+      "DELIVERED": "Delivered",
+      "CANCELED": "Canceled",
+      "REFUNDED": "Refunded"
+    }
+  },
+  "dashboardLayout": {
+    "title": "Dashboard",
+    "sidebarAria": "Dashboard menu",
+    "navigationAria": "Dashboard navigation",
+    "openMenu": "Open menu",
+    "administration": "Administration",
+    "logout": "Sign out",
+    "links": {
+      "dashboard": "Dashboard",
+      "orders": "My orders",
+      "search": "Search",
+      "aiAssistant": "AI Assistant",
+      "addresses": "Address book",
+      "payment": "Payment",
+      "settings": "Settings"
+    },
+    "adminLinks": {
+      "products": "Products",
+      "categories": "Categories",
+      "orders": "Orders",
+      "users": "Users",
+      "messages": "Messages",
+      "conversations": "AI Conversations",
+      "carousel": "Carousel",
+      "siteContent": "Site content",
+      "shipping": "Shipping"
+    },
+    "roles": {
+      "ADMIN": "Administrator",
+      "MANAGER_PRODUCTS": "Product Manager",
+      "MANAGER_ORDERS": "Order Manager",
+      "ACCOUNTANT": "Accountant",
+      "MODERATOR": "Moderator"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "Your provider of cutting-edge medical equipment for medical practices. Diagnostics, surgical instruments, furniture and consumables."
+    },
+    "catalog": {
+      "title": "Catalog",
+      "allProducts": "All Products",
+      "diagnostic": "Diagnostics",
+      "furniture": "Medical Furniture",
+      "surgical": "Surgical Instruments"
+    },
+    "account": {
+      "title": "My Account",
+      "login": "Sign In",
+      "register": "Sign Up",
+      "mySpace": "My Space",
+      "orders": "My Orders"
+    },
+    "info": {
+      "title": "Information",
+      "contact": "Contact",
+      "legal": "Legal Notice",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy"
+    },
+    "copyright": "Althea System — Medical equipment for practices. All rights reserved.",
+    "tagline": "Professional medical devices · Delivery across France"
+  },
+  "admin": {
+    "products": {
+      "title": "Product Management",
+      "addProduct": "Add Product",
+      "editProduct": "Edit Product",
+      "deleteProduct": "Delete Product",
+      "productName": "Product Name",
+      "description": "Description",
+      "price": "Price (cents)",
+      "comparePrice": "Compare Price (optional)",
+      "sku": "SKU",
+      "stock": "Stock",
+      "lowStockThreshold": "Low Stock Alert",
+      "category": "Category",
+      "selectCategory": "Select a category",
+      "images": "Images (URLs, comma-separated)",
+      "documents": "Documents (URLs)",
+      "featured": "Featured",
+      "active": "Active",
+      "inactive": "Inactive",
+      "tvaRate": "VAT Rate",
+      "actions": "Actions",
+      "bulkActions": "Bulk Actions",
+      "deleteSelected": "Delete Selected",
+      "search": "Search products...",
+      "filterByCategory": "Filter by category",
+      "filterByStatus": "Filter by status",
+      "allCategories": "All categories",
+      "allStatuses": "All",
+      "activeOnly": "Active",
+      "inactiveOnly": "Inactive",
+      "totalProducts": "{count} products",
+      "loadingError": "Loading error",
+      "deleteError": "Deletion error",
+      "createSuccess": "Product created successfully",
+      "updateSuccess": "Product updated successfully",
+      "deleteSuccess": "Product deleted successfully",
+      "confirmDelete": "Delete this product?",
+      "confirmBulkDelete": "Delete {count} selected products?",
+      "page": "Page",
+      "previous": "Previous",
+      "next": "Next",
+      "priceExclTax": "Price excl. tax",
+      "priceInclTax": "Price incl. tax",
+      "translations": "Translations",
+      "translationName": "Translated name",
+      "translationDescription": "Translated description",
+      "translationsLoadError": "Unable to load product translations",
+      "requiredError": "Name and price are required",
+      "exportError": "Export error",
+      "importBtn": "Import",
+      "slugField": "SEO Slug",
+      "slugPlaceholderHint": "(auto-generated if empty)",
+      "comparePricePlaceholder": "Optional",
+      "tableColImage": "Image",
+      "tableColProduct": "Product",
+      "tableColVat": "VAT",
+      "tableColStatus": "Status",
+      "featuredBadge": "★ Featured",
+      "statusPublished": "Published",
+      "statusDraft": "Draft",
+      "editBtn": "Edit",
+      "rowsPerPage": "Rows per page:"
+    },
+    "orders": {
+      "title": "Order Management",
+      "orderNumber": "Order #",
+      "customer": "Customer",
+      "status": "Status",
+      "items": "Items",
+      "totalIncTax": "Total inc. tax",
+      "createdAt": "Date",
+      "actions": "Actions",
+      "viewDetails": "View Details",
+      "updateStatus": "Update Status",
+      "search": "Search orders...",
+      "filterByStatus": "Filter by status",
+      "allStatuses": "All statuses",
+      "totalOrders": "{count} orders",
+      "loadingError": "Loading error",
+      "updateSuccess": "Order updated successfully",
+      "guest": "Guest",
+      "noInvoice": "No invoice linked to this order",
+      "invoiceDownloadError": "Unable to download the invoice",
+      "articleSingular": "item",
+      "articlePlural": "items",
+      "ttc": "incl. tax",
+      "detail": {
+        "orderedItems": "Ordered items",
+        "productFallback": "Product",
+        "subtotalExclTax": "Subtotal excl. tax",
+        "tax": "VAT (20%)",
+        "shipping": "Shipping",
+        "shippingFree": "Free",
+        "totalInclTax": "Total incl. tax",
+        "clientSection": "Customer",
+        "shippingAddress": "Shipping address",
+        "phone": "Tel",
+        "paymentSection": "Payment",
+        "paidViaStripe": "✓ Paid via Stripe",
+        "awaitingPayment": "⏳ Awaiting payment",
+        "changeStatus": "Change status",
+        "downloadInvoice": "Download invoice",
+        "refundBtn": "Issue credit note / Refund",
+        "statusHistory": "Status history"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "addUser": "Add User",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "createdAt": "Registration date",
+      "actions": "Actions",
+      "updateRole": "Update Role",
+      "deleteUser": "Delete User",
+      "search": "Search users...",
+      "filterByRole": "Filter by role",
+      "allRoles": "All roles",
+      "totalUsers": "{count} users",
+      "loadingError": "Loading error",
+      "updateSuccess": "User updated successfully",
+      "deleteSuccess": "User deleted successfully",
+      "confirmDelete": "Delete this user?",
+      "updateError": "Unable to change this user's role",
+      "noName": "No name",
+      "youSuffix": "(you)",
+      "exportSuccess": "CSV export downloaded",
+      "confirmDeleteDesc": "You are about to delete the account of",
+      "rgpdTitle": "GDPR Compliance:",
+      "rgpdDesc": "This action will permanently delete all personal data of the user (name, email, addresses, anonymized order history). This action is irreversible.",
+      "rgpdCheckbox": "I confirm the deletion and erasure of data in accordance with GDPR",
+      "roles": {
+        "USER": "User",
+        "ADMIN": "Administrator",
+        "MODERATOR": "Moderator",
+        "MANAGER_PRODUCTS": "Products Manager",
+        "MANAGER_ORDERS": "Orders Manager",
+        "ACCOUNTANT": "Accountant"
+      }
+    },
+    "contacts": {
+      "title": "Contact Messages",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "status": "Status",
+      "createdAt": "Date",
+      "actions": "Actions",
+      "markAsRead": "Mark as Read",
+      "markAsUnread": "Mark as Unread",
+      "delete": "Delete",
+      "viewMessage": "View Message",
+      "search": "Search messages...",
+      "filterByStatus": "Filter by status",
+      "allStatuses": "All statuses",
+      "unreadOnly": "Unread",
+      "readOnly": "Read",
+      "totalMessages": "{count} messages",
+      "loadingError": "Loading error",
+      "updateSuccess": "Message updated successfully",
+      "deleteSuccess": "Message deleted successfully",
+      "confirmDelete": "Delete this message?"
+    },
+    "carousel": {
+      "title": "Homepage Carousel",
+      "addSlide": "Add Slide",
+      "editSlide": "Edit Slide",
+      "title_field": "Title",
+      "subtitle": "Subtitle",
+      "ctaText": "Button Text",
+      "ctaLink": "Button Link",
+      "image": "Image URL",
+      "position": "Position",
+      "active": "Active",
+      "actions": "Actions",
+      "totalSlides": "{count} slides",
+      "loadingError": "Loading error",
+      "createSuccess": "Slide created successfully",
+      "updateSuccess": "Slide updated successfully",
+      "deleteSuccess": "Slide deleted successfully",
+      "confirmDelete": "Delete this slide?",
+      "move": "Move",
+      "inactive": "Inactive",
+      "fieldsRequired": "Title and image are required",
+      "maxSlidesError": "Maximum {count} slides",
+      "reorderSuccess": "Order updated",
+      "titlePlaceholder": "E.g. Medical equipment",
+      "subtitlePlaceholder": "E.g. Discover our new products",
+      "link": "Link (URL)"
+    },
+    "settings": {
+      "title": "Settings",
+      "profile": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "updateProfile": "Update Profile",
+      "updateSuccess": "Settings updated successfully",
+      "updateError": "Update error"
+    },
+    "search": {
+      "title": "Search",
+      "placeholder": "Search...",
+      "search": "Search",
+      "searching": "Searching...",
+      "noResults": "No results found",
+      "askAssistant": "Ask a question to the Althea assistant..."
+    },
+    "chat": {
+      "title": "AI Assistant",
+      "placeholder": "Type your message...",
+      "send": "Send",
+      "empty": "Ask a question to the Althea assistant...",
+      "error": "Error sending message",
+      "onlineStatus": "Online · AI Powered",
+      "clearBtn": "Clear",
+      "emptyHeading": "How can I help you?",
+      "suggestion1": "What products do you offer?",
+      "suggestion2": "How do I track my order?",
+      "suggestion3": "What are the shipping costs?",
+      "suggestion4": "How do I return a product?",
+      "suggestion5": "What payment methods do you accept?"
+    },
+    "myOrders": {
+      "title": "My Orders",
+      "orderNumber": "Order #",
+      "items": "Items",
+      "totalIncTax": "Total inc. tax",
+      "createdAt": "Date",
+      "viewDetails": "View Details",
+      "noOrders": "No orders yet.",
+      "browseCatalog": "Browse catalog",
+      "loadingError": "Loading error",
+      "addedToCart": "Items added to cart",
+      "searchPlaceholder": "Search by product, order #, date...",
+      "allYears": "All years",
+      "allStatuses": "All statuses",
+      "orderCountSingular": "order",
+      "orderCountPlural": "orders",
+      "orderPrefix": "Order #",
+      "cardPrefix": "Card ••••",
+      "invoicePdf": "Invoice PDF",
+      "renewTitle": "Add all items to cart",
+      "renewBtn": "Reorder",
+      "status": {
+        "PENDING": "Pending",
+        "CONFIRMED": "Confirmed",
+        "PROCESSING": "Processing",
+        "SHIPPED": "Shipped",
+        "DELIVERED": "Delivered",
+        "CANCELED": "Canceled",
+        "REFUNDED": "Refunded"
+      }
+    }
+  },
+  "cart": {
+    "titlePrefix": "My",
+    "titleHighlight": "Cart",
+    "itemSingular": "item selected",
+    "itemPlural": "items selected",
+    "loginBanner": {
+      "title": "Sign in to save your cart and access your orders",
+      "desc": "Your cart will be kept after signing in",
+      "login": "Sign in",
+      "register": "Create an account"
+    },
+    "empty": {
+      "title": "Your cart is empty",
+      "desc": "Discover our catalog and add products.",
+      "cta": "View products"
+    },
+    "item": {
+      "ht": "excl. tax",
+      "decreaseQty": "Decrease quantity of",
+      "currentQty": "Quantity:",
+      "increaseQty": "Increase quantity of",
+      "lowStockPrefix": "Only",
+      "lowStockSuffix": "left in stock",
+      "remove": "Remove",
+      "removeSuffix": "from cart"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal excl. tax",
+      "savings": "Savings",
+      "tax": "VAT (20%)",
+      "shipping": "Shipping",
+      "quote": "On quote",
+      "free": "Free",
+      "freeShippingFrom": "Free shipping from",
+      "ht": "excl. tax",
+      "total": "Total incl. tax",
+      "unavailableWarning": "Some items are unavailable",
+      "unavailableHint": "Remove or update out-of-stock items.",
+      "checking": "Checking...",
+      "unavailableBtn": "Items unavailable",
+      "checkout": "Checkout",
+      "continue": "Continue shopping"
+    },
+    "shippingStandard": "Standard shipping"
+  },
+  "checkout": {
+    "steps": {
+      "login": "Login",
+      "address": "Address",
+      "recap": "Summary",
+      "payment": "Payment"
+    },
+    "emptyCart": {
+      "title": "Your cart is empty",
+      "desc": "Add products before checking out.",
+      "cta": "View catalog"
+    },
+    "pageTitle": "Checkout",
+    "step1": {
+      "title": "Sign in to continue",
+      "desc": "You must be signed in to place an order and track your purchases.",
+      "login": "Sign in",
+      "register": "Create an account"
+    },
+    "step2": {
+      "title": "Delivery address",
+      "addNew": "+ Add a new address",
+      "useExisting": "← Use an existing address",
+      "phone": "Phone:",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "street": "Address",
+      "postalCode": "Postal code",
+      "city": "City",
+      "phone2": "Phone",
+      "label": "Label",
+      "labelPlaceholder": "Label (e.g. Office, Home)",
+      "back": "Back to cart",
+      "continue": "Continue"
+    },
+    "step3": {
+      "products": "Products",
+      "ht": "excl. tax",
+      "deliveryAddress": "Delivery address",
+      "edit": "Edit",
+      "phone": "Phone:",
+      "billingAddress": "Billing address",
+      "billingSame": "Same as delivery address",
+      "addBilling": "+ New billing address",
+      "useExisting": "← Use an existing address",
+      "firstNamePlaceholder": "First name *",
+      "lastNamePlaceholder": "Last name *",
+      "streetPlaceholder": "Address *",
+      "postalCodePlaceholder": "Postal code *",
+      "cityPlaceholder": "City *",
+      "paymentSection": "Payment",
+      "paymentDesc": "You will be redirected to a secure Stripe payment form in the next step.",
+      "subtotal": "Subtotal excl. tax",
+      "tax": "VAT (20%)",
+      "shipping": "Shipping",
+      "quote": "On quote",
+      "free": "Free",
+      "total": "Total incl. tax",
+      "customShippingMsg": "Special shipping required. Please contact us for a quote.",
+      "back": "Back",
+      "loading": "Loading...",
+      "confirmAndPay": "Confirm and pay"
+    },
+    "step4": {
+      "title": "Secure payment"
+    },
+    "sidebar": {
+      "title": "Order Summary",
+      "qty": "Qty:",
+      "subtotal": "Subtotal excl. tax",
+      "tax": "VAT (20%)",
+      "shipping": "Shipping",
+      "quote": "On quote",
+      "free": "Free",
+      "total": "Total incl. tax"
+    },
+    "payment": {
+      "secureInfo": "Secure payment by Stripe. Your banking information is protected.",
+      "contactForQuote": "Please contact us for a shipping quote.",
+      "back": "Back",
+      "processing": "Processing...",
+      "pay": "Pay",
+      "error": "An error occurred during payment."
+    },
+    "toasts": {
+      "addressError": "Error adding address",
+      "billingRequired": "Please fill in the billing address",
+      "stockUnavailable": "Some products are no longer available:",
+      "stockInsufficient": "Insufficient stock",
+      "orderError": "Error creating the order"
+    },
+    "shippingStandard": "Standard shipping"
+  },
+  "settings": {
+    "pageTitle": "Account settings",
+    "pageSubtitle": "Manage your personal information and account security.",
+    "loading": "Loading profile...",
+    "cancelBtn": "Cancel",
+    "emailBanner": {
+      "title": "Your email is not yet verified",
+      "body": "Check your inbox and click the confirmation link to activate all features."
+    },
+    "profile": {
+      "title": "Personal information",
+      "memberSince": "Member since",
+      "name": "Name",
+      "email": "Email",
+      "savingBtn": "Saving...",
+      "saveBtn": "Save"
+    },
+    "password": {
+      "title": "Change password",
+      "current": "Current password",
+      "new": "New password",
+      "newPlaceholder": "Minimum 8 characters",
+      "confirm": "Confirm new password",
+      "savingBtn": "Updating...",
+      "saveBtn": "Update password"
+    },
+    "twofa": {
+      "title": "Two-factor authentication (2FA)",
+      "enabled": "2FA is enabled on your account.",
+      "disabled": "Strengthen your account security with a TOTP code.",
+      "badge": "Enabled",
+      "setupBtn": "Set up 2FA",
+      "setupLoading": "Setting up...",
+      "qrStep1": "1. Scan this QR code with your authenticator app (Google Authenticator, Authy, etc.)",
+      "qrManual": "Or enter this code manually:",
+      "qrStep2": "2. Enter the 6-digit code shown in your app",
+      "verifyLoading": "Verifying...",
+      "verifyBtn": "Enable 2FA",
+      "disableBtn": "Disable 2FA",
+      "disablePrompt": "Enter a code from your authenticator app to confirm deactivation.",
+      "disableLoading": "Disabling...",
+      "disableConfirmBtn": "Confirm deactivation"
+    },
+    "deactivate": {
+      "title": "Deactivate account",
+      "subtitle": "Your account will be deactivated but your data will be kept.",
+      "btn": "Deactivate my account",
+      "confirmText": "Your account will be deactivated and you will no longer be able to log in. Contact support to reactivate it.",
+      "loading": "Deactivating...",
+      "confirmBtn": "Confirm deactivation"
+    },
+    "delete": {
+      "title": "Delete account",
+      "subtitle": "This action is irreversible.",
+      "btn": "Delete my account",
+      "confirmPromptPrefix": "Type",
+      "confirmPromptSuffix": "to confirm the permanent deletion of your account.",
+      "confirmWord": "DELETE",
+      "srOnly": "Type DELETE to confirm",
+      "loading": "Deleting...",
+      "confirmBtn": "Confirm deletion"
+    },
+    "toasts": {
+      "emailUpdated": "Email updated successfully",
+      "emailConfirmInvalid": "Invalid confirmation link",
+      "profileLoadError": "Unable to load profile",
+      "pendingEmailChange": "A confirmation email has been sent to your new address.",
+      "profileUpdated": "Profile updated",
+      "profileUpdateError": "Error updating profile",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "passwordChanged": "Password changed",
+      "passwordChangeError": "Error changing password",
+      "deactivated": "Account deactivated",
+      "deactivateError": "Error deactivating account",
+      "deleted": "Account deleted",
+      "deleteError": "Error deleting account",
+      "twoFASetupError": "Error setting up 2FA",
+      "twoFAEnabled": "Two-factor authentication enabled!",
+      "twoFACodeInvalid": "Invalid code",
+      "twoFADisabled": "Two-factor authentication disabled"
+    }
+  },
+  "adminCategories": {
+    "pageTitle": "Categories",
+    "countSingular": "category",
+    "countPlural": "categories",
+    "newBtn": "+ New category",
+    "cancelBtn": "Cancel",
+    "table": {
+      "order": "Order",
+      "image": "Image",
+      "name": "Name",
+      "parent": "Parent",
+      "products": "Products",
+      "home": "Homepage",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "row": {
+      "dragTitle": "Drag to reorder",
+      "root": "Root",
+      "featuredTitle": "Remove from homepage",
+      "notFeaturedTitle": "Feature on homepage",
+      "featuredBtn": "★ Homepage",
+      "active": "Active",
+      "inactive": "Inactive",
+      "editBtn": "Edit"
+    },
+    "form": {
+      "titleEdit": "Edit:",
+      "titleNew": "New category",
+      "name": "Name *",
+      "namePlaceholder": "Medical diagnostics",
+      "slug": "SEO slug",
+      "slugPlaceholder": "medical-diagnostics (auto-generated if empty)",
+      "parentCategory": "Parent category",
+      "parentNone": "— None (root category)",
+      "position": "Position (display order)",
+      "imageUrl": "Image (URL)",
+      "activeLabel": "Active (visible on site)",
+      "featuredLabel": "★ Featured (homepage)",
+      "description": "Description",
+      "descriptionPlaceholder": "Short category description",
+      "translationsTitle": "Translations",
+      "translatedName": "Translated name",
+      "translatedDescription": "Translated description",
+      "saveBtn": "Save",
+      "createBtn": "Create"
+    },
+    "empty": "No categories. Create one to get started.",
+    "deleteConfirm": "Delete this category? Associated products will not be deleted.",
+    "toasts": {
+      "loadError": "Error loading categories",
+      "translationsLoadError": "Unable to load category translations",
+      "nameRequired": "Name is required",
+      "updated": "Category updated",
+      "created": "Category created",
+      "error": "Error",
+      "deleted": "Category deleted",
+      "deactivated": "Category deactivated",
+      "activated": "Category activated",
+      "unfeatured": "Removed from featured",
+      "featured": "Featured on homepage",
+      "reordered": "Order updated"
+    }
+  },
+  "addresses": {
+    "pageTitle": "Address book",
+    "addBtn": "Add an address",
+    "emptyText": "No saved addresses.",
+    "defaultBadge": "Default",
+    "phone": "Tel:",
+    "setDefaultBtn": "Default",
+    "editBtn": "Edit",
+    "deleteBtn": "Delete",
+    "deleteConfirm": "Delete this address?",
+    "form": {
+      "titleEdit": "Edit address",
+      "titleNew": "New address",
+      "label": "Label (optional)",
+      "labelPlaceholder": "e.g.: Office, Home",
+      "firstName": "First name *",
+      "lastName": "Last name *",
+      "street": "Address *",
+      "postalCode": "Postal code *",
+      "city": "City *",
+      "country": "Country",
+      "phone": "Phone",
+      "isDefault": "Set as default address",
+      "cancelBtn": "Cancel",
+      "savingBtn": "Saving...",
+      "saveBtn": "Save"
+    },
+    "toasts": {
+      "requiredFields": "Please fill in the required fields",
+      "updated": "Address updated",
+      "added": "Address added",
+      "saveError": "Error saving address",
+      "deleted": "Address deleted",
+      "deleteError": "Error deleting address",
+      "defaultUpdated": "Default address updated",
+      "defaultError": "Error"
+    }
+  },
+  "confirmation": {
+    "notFound": "Order not found",
+    "banner": {
+      "title": "Order confirmed!",
+      "orderPrefix": "Order",
+      "status": {
+        "PENDING": "Pending",
+        "CONFIRMED": "Confirmed",
+        "PROCESSING": "Processing",
+        "SHIPPED": "Shipped",
+        "DELIVERED": "Delivered"
+      }
+    },
+    "products": {
+      "title": "Ordered products",
+      "unitHT": "excl. VAT x"
+    },
+    "totals": {
+      "subtotal": "Subtotal excl. VAT",
+      "tax": "VAT (20%)",
+      "shipping": "Shipping",
+      "free": "Free",
+      "total": "Total incl. VAT"
+    },
+    "address": {
+      "title": "Delivery address",
+      "phone": "Tel:"
+    },
+    "payment": {
+      "title": "Payment",
+      "stripe": "Secure payment by Stripe",
+      "invoicePrefix": "Invoice No."
+    },
+    "actions": {
+      "myOrders": "View my orders",
+      "continueShopping": "Continue shopping",
+      "downloadInvoice": "Download invoice"
+    }
+  },
+  "adminInvoices": {
+    "pageTitle": "Invoices",
+    "countSingular": "invoice",
+    "countPlural": "invoices",
+    "emptyText": "No invoices found.",
+    "downloadTitle": "Download PDF",
+    "emailTitle": "Send by email",
+    "cancelTitle": "Cancel and create credit note",
+    "cancelReasonDefault": "Invoice cancellation",
+    "filter": {
+      "all": "All",
+      "paid": "Paid",
+      "pending": "Pending",
+      "canceled": "Cancelled"
+    },
+    "table": {
+      "invoiceNumber": "Invoice #",
+      "date": "Date",
+      "client": "Client",
+      "order": "Order",
+      "amountTTC": "Amount incl. VAT",
+      "status": "Status",
+      "creditNote": "Credit note",
+      "actions": "Actions"
+    },
+    "status": {
+      "PAID": "Paid",
+      "PENDING": "Pending",
+      "CANCELED": "Cancelled"
+    },
+    "pagination": {
+      "page": "Page",
+      "prev": "← Previous",
+      "next": "Next →"
+    },
+    "modal": {
+      "title": "Cancel invoice",
+      "descPrefix": "Invoice",
+      "descSuffix": "will be cancelled and a credit note will be created automatically.",
+      "reasonLabel": "Cancellation reason",
+      "reasonPlaceholder": "E.g. Order error, customer refund...",
+      "cancelBtn": "Cancel",
+      "confirmBtn": "Confirm cancellation"
+    },
+    "toasts": {
+      "loadError": "Error loading invoices.",
+      "emailSentPrefix": "Invoice",
+      "emailSentSuffix": "sent by email.",
+      "emailError": "Error sending email.",
+      "cancelledPrefix": "Invoice",
+      "cancelledSuffix": "cancelled. A credit note has been created automatically.",
+      "cancelError": "Error cancelling invoice."
+    }
+  },
+  "adminShipping": {
+    "pageTitle": "Shipping Rules",
+    "countSingular": "shipping rule",
+    "countPlural": "shipping rules",
+    "addBtn": "New rule",
+    "hint": "Rules are evaluated by priority (lower = higher priority). The first matching rule is applied.",
+    "htSuffix": "excl. VAT",
+    "emptyText": "No rules configured. Add one to get started.",
+    "editTitle": "Edit",
+    "deleteTitle": "Delete",
+    "deleteConfirm": "Delete this rule?",
+    "table": {
+      "priority": "Priority",
+      "label": "Label",
+      "type": "Type",
+      "amount": "Amount",
+      "minSubtotal": "Min threshold",
+      "maxSubtotal": "Max threshold",
+      "active": "Active",
+      "actions": "Actions"
+    },
+    "types": {
+      "FLAT": "Flat rate",
+      "FREE_ABOVE": "Free above",
+      "CUSTOM": "Custom (message)"
+    },
+    "form": {
+      "titleEdit": "Edit rule",
+      "titleNew": "New rule",
+      "labelField": "Label",
+      "labelPlaceholder": "E.g. Standard shipping",
+      "typeField": "Type",
+      "typeFlatOption": "Flat rate",
+      "typeFreeAboveOption": "Free above a threshold",
+      "typeCustomOption": "Custom (personalized message)",
+      "amountField": "Amount (in cents)",
+      "minSubtotalField": "Min threshold (€ excl. VAT)",
+      "maxSubtotalField": "Max threshold (€ excl. VAT)",
+      "optional": "Optional",
+      "messageField": "Displayed message",
+      "messagePlaceholder": "E.g. Contact us for a shipping quote",
+      "priorityField": "Priority",
+      "priorityHint": "The lower the number, the higher the priority.",
+      "activeLabel": "Rule active",
+      "cancelBtn": "Cancel",
+      "saveBtn": "Save",
+      "createBtn": "Create"
+    },
+    "toasts": {
+      "loadError": "Error loading rules",
+      "labelRequired": "Label is required",
+      "updated": "Rule updated",
+      "created": "Rule created",
+      "deleted": "Rule deleted",
+      "error": "Error"
+    }
+  },
+  "importModal": {
+    "title": "Import products",
+    "upload": {
+      "dragText": "Drag a CSV or Excel file here",
+      "clickText": "or click to browse",
+      "chooseBtn": "Choose a file",
+      "formatTitle": "Expected format",
+      "formatDesc1": "Columns: name (required), price (required, in euros), stock, sku, category (name), description, images (URLs separated by ;)",
+      "formatDesc2": "The first row must contain the headers. Column names also accept French variants: nom, prix, quantite, ref, categorie."
+    },
+    "loading": {
+      "analyzing": "Analysing file...",
+      "importing": "Importing..."
+    },
+    "preview": {
+      "validSingular": "valid",
+      "validPlural": "valid",
+      "errorSingular": "error",
+      "errorPlural": "errors",
+      "table": {
+        "line": "Row",
+        "name": "Name",
+        "price": "Price",
+        "stock": "Stock",
+        "sku": "SKU",
+        "category": "Category",
+        "status": "Status"
+      },
+      "truncatedPrefix": "Showing the first 100 rows out of",
+      "truncatedSuffix": "total."
+    },
+    "result": {
+      "title": "Import complete",
+      "createdSingular": "Created",
+      "createdPlural": "Created",
+      "failedSingular": "Failed",
+      "failedPlural": "Failed",
+      "linePrefix": "Row"
+    },
+    "footer": {
+      "cancelBtn": "Cancel",
+      "changeFileBtn": "Change file",
+      "importBtnPrefix": "Import",
+      "importBtnProductSingular": "product",
+      "importBtnProductPlural": "products",
+      "closeBtn": "Close"
+    },
+    "toasts": {
+      "formatError": "Unsupported format. Please use a CSV or Excel file (.xlsx).",
+      "analyzeError": "Error analysing the file",
+      "noValidRows": "No valid rows to import",
+      "importedSingular": "product imported",
+      "importedPlural": "products imported",
+      "importError": "Error during import"
+    }
+  },
+  "adminCreditNotes": {
+    "pageTitle": "Credit notes",
+    "countSingular": "credit note",
+    "countPlural": "credit notes",
+    "emptyText": "No credit notes found.",
+    "downloadTitle": "Download PDF",
+    "emailTitle": "Send by email",
+    "table": {
+      "creditNoteNumber": "Credit note #",
+      "linkedInvoice": "Linked invoice",
+      "date": "Date",
+      "client": "Client",
+      "amount": "Amount",
+      "reason": "Reason",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "page": "Page",
+      "prev": "← Previous",
+      "next": "Next →"
+    },
+    "toasts": {
+      "loadError": "Error loading credit notes.",
+      "emailSentPrefix": "Credit note",
+      "emailSentSuffix": "sent by email.",
+      "emailError": "Error sending email."
+    }
+  },
+  "adminConversations": {
+    "pageTitle": "Chatbot Conversations",
+    "countSingular": "conversation recorded",
+    "countPlural": "conversations recorded",
+    "anonymous": "Anonymous",
+    "messageSingular": "message",
+    "messagePlural": "messages",
+    "emptyConversations": "No conversations recorded",
+    "emptyMessages": "No messages",
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next"
+    }
+  },
+  "adminSiteSettings": {
+    "pageTitle": "Site Content",
+    "pageDesc": "Edit the text displayed on the home page and other public sections.",
+    "groups": {
+      "tagline": "Tagline below the carousel",
+      "general": "General"
+    },
+    "saveBtn": "Save changes",
+    "savingBtn": "Saving…",
+    "cancelBtn": "Cancel",
+    "toasts": {
+      "loadError": "Error loading settings",
+      "saved": "Content updated",
+      "saveError": "Error saving settings"
+    }
+  }
+}

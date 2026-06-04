@@ -1,0 +1,13 @@
+# Railway config — Frontend Next.js
+# Utiliser rootDir = "apps/frontend" dans le dashboard Railway pour ce service
+
+[build]
+builder = "nixpacks"
+buildCommand = "npm install && npm run build"
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/"
+healthcheckTimeout = 120
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3

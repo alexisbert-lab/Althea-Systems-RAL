@@ -1,0 +1,99 @@
+/* RTL Support for Arabic and Hebrew */
+
+/* Automatic margin/padding flip for RTL */
+[dir="rtl"] {
+  direction: rtl;
+}
+
+[dir="ltr"] {
+  direction: ltr;
+}
+
+/* Fix Tailwind classes for RTL */
+[dir="rtl"] .rtl\:text-right {
+  text-align: right;
+}
+
+[dir="rtl"] .rtl\:text-left {
+  text-align: left;
+}
+
+/* Flex direction flip */
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+/* Grid auto-placement */
+[dir="rtl"] .grid {
+  direction: rtl;
+}
+
+/* Float fixes */
+[dir="rtl"] .float-left {
+  float: right;
+}
+
+[dir="rtl"] .float-right {
+  float: left;
+}
+
+/* Navbar spacing */
+[dir="rtl"] .gap-2,
+[dir="rtl"] .gap-3,
+[dir="rtl"] .gap-4,
+[dir="rtl"] .gap-6 {
+  direction: rtl;
+}
+
+/* Dropdown menus */
+[dir="rtl"] [data-radix-popper-content-wrapper] {
+  transform-origin: top left !important;
+}
+
+/* Forms and inputs */
+[dir="rtl"] input,
+[dir="rtl"] textarea,
+[dir="rtl"] select {
+  text-align: right;
+}
+
+/* Navigation menu */
+[dir="rtl"] nav {
+  direction: rtl;
+}
+
+/* Footer columns */
+[dir="rtl"] footer .grid {
+  direction: rtl;
+}
+
+/* Shopping cart icon badge */
+[dir="rtl"] .absolute.-right-2 {
+  right: auto;
+  left: -0.5rem;
+}
+
+[dir="rtl"] .absolute.-left-2 {
+  left: auto;
+  right: -0.5rem;
+}
+
+/* Modal and dialog positioning */
+[dir="rtl"] [role="dialog"] {
+  direction: rtl;
+}
+
+/* Ensure images don't flip */
+[dir="rtl"] img {
+  direction: ltr;
+}
+
+/* Table support */
+[dir="rtl"] table {
+  direction: rtl;
+}
+
+[dir="rtl"] th,
+[dir="rtl"] td {
+  text-align: right;
+}

@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "products" ADD COLUMN "vatRate" DOUBLE PRECISION NOT NULL DEFAULT 0.20;

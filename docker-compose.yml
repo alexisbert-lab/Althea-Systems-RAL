@@ -1,0 +1,100 @@
+services:
+  # ─── PostgreSQL ────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: althea-postgres
+    restart: unless-stopped
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_USER: althea_user
+      POSTGRES_PASSWORD: althea_password
+      POSTGRES_DB: althea
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U althea_user -d althea']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── MongoDB ───────────────────────────────────────
+  mongodb:
+    image: mongo:7
+    container_name: althea-mongodb
+    restart: unless-stopped
+    ports:
+      - '27018:27017'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: althea_user
+      MONGO_INITDB_ROOT_PASSWORD: althea_password
+      MONGO_INITDB_DATABASE: althea
+    volumes:
+      - mongodb-data:/data/db
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Meilisearch ───────────────────────────────────
+  meilisearch:
+    image: getmeili/meilisearch:v1.11
+    container_name: althea-meilisearch
+    restart: unless-stopped
+    ports:
+      - '7700:7700'
+    environment:
+      MEILI_MASTER_KEY: althea-meili-master-key
+      MEILI_ENV: development
+    volumes:
+      - meilisearch-data:/meili_data
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:7700/health']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Redis (cache / sessions) ──────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: althea-redis
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Backend NestJS ────────────────────────────────
+  backend:
+    build:
+      context: ./apps/backend
+      dockerfile: Dockerfile
+    container_name: althea-backend
+    restart: unless-stopped
+    ports:
+      - '4000:4000'
+    environment:
+      DATABASE_URL: postgres://althea_user:althea_password@postgres:5432/althea
+      MONGODB_URI: mongodb://althea_user:althea_password@mongodb:27017/althea?authSource=admin
+      PORT: 4000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+    command:
+      - /bin/sh
+      - -c
+      - npm run db:deploy && npm run start:prod
+
+volumes:
+  postgres-data:
+  mongodb-data:
+  meilisearch-data:
+  redis-data:
