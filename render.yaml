@@ -5,7 +5,7 @@ services:
     plan: free
     region: frankfurt
     rootDir: .
-    buildCommand: npm ci && npx prisma generate --schema=apps/backend/prisma/schema.prisma && npm run build --workspace=apps/backend
+    buildCommand: npm ci && cd apps/backend && npm ci && npx prisma generate && npm run build
     startCommand: cd apps/backend && npm run render:start
     healthCheckPath: /api/health
     autoDeploy: true
